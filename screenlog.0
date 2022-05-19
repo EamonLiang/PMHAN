@@ -1,0 +1,981 @@
+pytno[K[Khon main.py 
+2022-05-14 13:07:33
+
+Starting the training process......
+
+Vocabulary will be built according to dataset.
+Model will be created by program.
+
+Initializing the training environments......
+
+Environments built successfully.
+
+Size of train dataset: 425808
+
+Size of source code vocabulary: 48173 -> 30000
+Source code OOV rate: 37.72%
+
+Size of ast of code vocabulary: 61
+
+Size of code comment vocabulary: 56336 -> 30000
+Code comment OOV rate: 46.75%
+
+Validate every 5000 batches and each epoch.
+Size of validation dataset: 19137
+
+Start training......
+
+[0;36mtime[0m:  0h  0min  0s 456ms, [0;36mremaining[0m: 42h 13min 24s 738ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:   0.00%, [0;31mavg loss[0m: 10.3090
+[0;36mtime[0m:  0h  1min 27s 344ms, [0;36mremaining[0m: 40h  7min 50s 377ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:   0.06%, [0;31mavg loss[0m: 6.0602
+[0;36mtime[0m:  0h  2min 56s 761ms, [0;36mremaining[0m: 40h 41min  1s 321ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:   0.12%, [0;31mavg loss[0m: 5.4128
+[0;36mtime[0m:  0h  4min 25s 635ms, [0;36mremaining[0m: 40h 46min  7s 370ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:   0.18%, [0;31mavg loss[0m: 5.1363
+[0;36mtime[0m:  0h  5min 54s 550ms, [0;36mremaining[0m: 40h 48min 13s 507ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:   0.24%, [0;31mavg loss[0m: 4.9733
+[0;36mtime[0m:  0h  7min 24s 440ms, [0;36mremaining[0m: 40h 54min 16s 547ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:   0.30%, [0;31mavg loss[0m: 4.7830
+[0;36mtime[0m:  0h  8min 46s 421ms, [0;36mremaining[0m: 40h 21min 26s  80ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:   0.36%, [0;31mavg loss[0m: 4.6453
+[0;36mtime[0m:  0h 10min  1s 839ms, [0;36mremaining[0m: 39h 31min 42s 843ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:   0.42%, [0;31mavg loss[0m: 4.5395
+[0;36mtime[0m:  0h 11min 17s 736ms, [0;36mremaining[0m: 38h 55min 45s 187ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:   0.48%, [0;31mavg loss[0m: 4.4173
+[0;36mtime[0m:  0h 12min 33s 493ms, [0;36mremaining[0m: 38h 27min  4s 284ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:   0.54%, [0;31mavg loss[0m: 4.3260
+[0;36mtime[0m:  0h 13min 49s  68ms, [0;36mremaining[0m: 38h  3min 22s  13ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:   0.60%, [0;31mavg loss[0m: 4.2590
+[0;36mtime[0m:  0h 15min  3s 502ms, [0;36mremaining[0m: 37h 40min 53s 173ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:   0.66%, [0;31mavg loss[0m: 4.1969
+[0;36mtime[0m:  0h 16min 19s 619ms, [0;36mremaining[0m: 37h 25min 48s 223ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:   0.72%, [0;31mavg loss[0m: 4.1194
+[0;36mtime[0m:  0h 17min 35s 406ms, [0;36mremaining[0m: 37h 12min  8s 858ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:   0.78%, [0;31mavg loss[0m: 4.0481
+[0;36mtime[0m:  0h 18min 51s 115ms, [0;36mremaining[0m: 37h  0min  6s 501ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:   0.84%, [0;31mavg loss[0m: 3.9992
+[0;36mtime[0m:  0h 20min  5s 964ms, [0;36mremaining[0m: 36h 47min 55s 882ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:   0.90%, [0;31mavg loss[0m: 3.9450
+[0;36mtime[0m:  0h 21min 20s 832ms, [0;36mremaining[0m: 36h 37min  9s 111ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:   0.96%, [0;31mavg loss[0m: 3.8914
+[0;36mtime[0m:  0h 22min 36s 987ms, [0;36mremaining[0m: 36h 29min 34s 266ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:   1.02%, [0;31mavg loss[0m: 3.8617
+[0;36mtime[0m:  0h 23min 52s 232ms, [0;36mremaining[0m: 36h 21min 18s 236ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:   1.08%, [0;31mavg loss[0m: 3.8130
+[0;36mtime[0m:  0h 25min  6s 683ms, [0;36mremaining[0m: 36h 12min 37s 867ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:   1.14%, [0;31mavg loss[0m: 3.7714
+[0;36mtime[0m:  0h 26min 21s 768ms, [0;36mremaining[0m: 36h  5min 34s  94ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:   1.20%, [0;31mavg loss[0m: 3.7388
+[0;36mtime[0m:  0h 27min 57s 774ms, [0;36mremaining[0m: 36h 26min 19s 294ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:   1.26%, [0;31mavg loss[0m: 3.7333
+[0;36mtime[0m:  0h 30min  9s 763ms, [0;36mremaining[0m: 37h 29min 46s 500ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:   1.32%, [0;31mavg loss[0m: 3.6836
+[0;36mtime[0m:  0h 32min 28s 780ms, [0;36mremaining[0m: 38h 35min 52s 341ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:   1.38%, [0;31mavg loss[0m: 3.6779
+[0;36mtime[0m:  0h 34min 41s 224ms, [0;36mremaining[0m: 39h 28min 47s 328ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:   1.44%, [0;31mavg loss[0m: 3.6652
+[0;36mtime[0m:  0h 36min 56s 782ms, [0;36mremaining[0m: 40h 20min 41s 782ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:   1.50%, [0;31mavg loss[0m: 3.6084
+
+Validating the model at epoch 0, batch 5000 on valid dataset......
+Validate completed, avg loss: 4.1614.
+
+[0;36mtime[0m:  0h 39min 42s 686ms, [0;36mremaining[0m: 41h 40min 16s 910ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:   1.56%, [0;31mavg loss[0m: 3.5684
+[0;36mtime[0m:  0h 41min 50s 511ms, [0;36mremaining[0m: 42h 15min 18s 802ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:   1.62%, [0;31mavg loss[0m: 3.5542
+[0;36mtime[0m:  0h 44min  3s 725ms, [0;36mremaining[0m: 42h 52min 56s 149ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:   1.68%, [0;31mavg loss[0m: 3.5479
+[0;36mtime[0m:  0h 46min 13s 760ms, [0;36mremaining[0m: 43h 24min 49s 532ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:   1.74%, [0;31mavg loss[0m: 3.4943
+[0;36mtime[0m:  0h 48min 22s 360ms, [0;36mremaining[0m: 43h 53min  8s 571ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:   1.80%, [0;31mavg loss[0m: 3.4743
+[0;36mtime[0m:  0h 50min 35s 974ms, [0;36mremaining[0m: 44h 23min 53s 724ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:   1.86%, [0;31mavg loss[0m: 3.5274
+[0;36mtime[0m:  0h 52min 47s 505ms, [0;36mremaining[0m: 44h 50min 49s  17ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:   1.92%, [0;31mavg loss[0m: 3.4601
+[0;36mtime[0m:  0h 54min 57s 136ms, [0;36mremaining[0m: 45h 14min 24s 621ms, [0;33mepoch[0m:  1/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:   1.98%, [0;31mavg loss[0m: 3.4309
+
+Validating the model at the end of epoch 0 on valid dataset......
+Validate completed, avg loss: 3.9964.
+
+[0;36mtime[0m:  0h 56min 29s  33ms, [0;36mremaining[0m: 46h  7min 17s 178ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:   2.00%, [0;31mavg loss[0m: 3.1686
+[0;36mtime[0m:  0h 58min 40s 943ms, [0;36mremaining[0m: 46h 29min 23s 666ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:   2.06%, [0;31mavg loss[0m: 3.2244
+[0;36mtime[0m:  1h  0min 57s 276ms, [0;36mremaining[0m: 46h 53min 31s 611ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:   2.12%, [0;31mavg loss[0m: 3.2169
+[0;36mtime[0m:  1h  2min 44s 294ms, [0;36mremaining[0m: 46h 54min 17s 205ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:   2.18%, [0;31mavg loss[0m: 3.2407
+[0;36mtime[0m:  1h  4min  1s 357ms, [0;36mremaining[0m: 46h 33min  7s 767ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:   2.24%, [0;31mavg loss[0m: 3.2166
+[0;36mtime[0m:  1h  5min 16s 876ms, [0;36mremaining[0m: 46h 11min 55s  68ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:   2.30%, [0;31mavg loss[0m: 3.2063
+[0;36mtime[0m:  1h  6min 32s 285ms, [0;36mremaining[0m: 45h 51min 38s 798ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:   2.36%, [0;31mavg loss[0m: 3.2265
+[0;36mtime[0m:  1h  7min 47s 872ms, [0;36mremaining[0m: 45h 32min 26s 349ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:   2.42%, [0;31mavg loss[0m: 3.1728
+[0;36mtime[0m:  1h  9min  2s 900ms, [0;36mremaining[0m: 45h 13min 44s 116ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:   2.48%, [0;31mavg loss[0m: 3.1846
+[0;36mtime[0m:  1h 10min 18s 202ms, [0;36mremaining[0m: 44h 56min  1s 946ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:   2.54%, [0;31mavg loss[0m: 3.1711
+[0;36mtime[0m:  1h 11min 32s 835ms, [0;36mremaining[0m: 44h 38min 40s 350ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:   2.60%, [0;31mavg loss[0m: 3.1201
+[0;36mtime[0m:  1h 12min 47s 974ms, [0;36mremaining[0m: 44h 22min 20s 951ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:   2.66%, [0;31mavg loss[0m: 3.1811
+[0;36mtime[0m:  1h 14min  3s 529ms, [0;36mremaining[0m: 44h  6min 56s 335ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:   2.72%, [0;31mavg loss[0m: 3.1706
+[0;36mtime[0m:  1h 15min 17s 942ms, [0;36mremaining[0m: 43h 51min 28s 521ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:   2.78%, [0;31mavg loss[0m: 3.1362
+[0;36mtime[0m:  1h 16min 32s 404ms, [0;36mremaining[0m: 43h 36min 38s 509ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:   2.84%, [0;31mavg loss[0m: 3.1074
+[0;36mtime[0m:  1h 17min 48s  74ms, [0;36mremaining[0m: 43h 23min  2s 663ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:   2.90%, [0;31mavg loss[0m: 3.1635
+[0;36mtime[0m:  1h 19min  4s  36ms, [0;36mremaining[0m: 43h 10min  6s 452ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:   2.96%, [0;31mavg loss[0m: 3.1343
+[0;36mtime[0m:  1h 20min 19s 307ms, [0;36mremaining[0m: 42h 57min 15s 925ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:   3.02%, [0;31mavg loss[0m: 3.1093
+[0;36mtime[0m:  1h 21min 34s 431ms, [0;36mremaining[0m: 42h 44min 47s 893ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:   3.08%, [0;31mavg loss[0m: 3.1103
+[0;36mtime[0m:  1h 22min 50s   8ms, [0;36mremaining[0m: 42h 32min 59s 596ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:   3.14%, [0;31mavg loss[0m: 3.1092
+[0;36mtime[0m:  1h 24min  3s 923ms, [0;36mremaining[0m: 42h 20min 44s 790ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:   3.20%, [0;31mavg loss[0m: 3.0637
+[0;36mtime[0m:  1h 25min 20s 152ms, [0;36mremaining[0m: 42h 10min  2s 952ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:   3.26%, [0;31mavg loss[0m: 3.0754
+[0;36mtime[0m:  1h 26min 35s 588ms, [0;36mremaining[0m: 41h 59min 18s 522ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:   3.32%, [0;31mavg loss[0m: 3.0660
+[0;36mtime[0m:  1h 27min 51s  82ms, [0;36mremaining[0m: 41h 48min 55s 961ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:   3.38%, [0;31mavg loss[0m: 3.0761
+[0;36mtime[0m:  1h 29min  6s 464ms, [0;36mremaining[0m: 41h 38min 49s 373ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:   3.44%, [0;31mavg loss[0m: 3.0404
+[0;36mtime[0m:  1h 30min 22s  56ms, [0;36mremaining[0m: 41h 29min  6s 802ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:   3.50%, [0;31mavg loss[0m: 3.0558
+
+Validating the model at epoch 1, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.7531.
+
+[0;36mtime[0m:  1h 32min 15s 177ms, [0;36mremaining[0m: 41h 36min 36s 958ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:   3.56%, [0;31mavg loss[0m: 3.0251
+[0;36mtime[0m:  1h 33min 30s 453ms, [0;36mremaining[0m: 41h 27min  1s 857ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:   3.62%, [0;31mavg loss[0m: 3.0469
+[0;36mtime[0m:  1h 34min 45s 147ms, [0;36mremaining[0m: 41h 17min 27s 877ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:   3.68%, [0;31mavg loss[0m: 2.9983
+[0;36mtime[0m:  1h 36min  0s 368ms, [0;36mremaining[0m: 41h  8min 23s 461ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:   3.74%, [0;31mavg loss[0m: 3.0377
+[0;36mtime[0m:  1h 37min 16s 335ms, [0;36mremaining[0m: 40h 59min 52s 736ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:   3.80%, [0;31mavg loss[0m: 3.0061
+[0;36mtime[0m:  1h 38min 32s  88ms, [0;36mremaining[0m: 40h 51min 30s 239ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:   3.86%, [0;31mavg loss[0m: 2.9971
+[0;36mtime[0m:  1h 39min 47s 211ms, [0;36mremaining[0m: 40h 43min  5s 390ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:   3.92%, [0;31mavg loss[0m: 3.0294
+[0;36mtime[0m:  1h 41min  2s 543ms, [0;36mremaining[0m: 40h 34min 58s 525ms, [0;33mepoch[0m:  2/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:   3.98%, [0;31mavg loss[0m: 2.9895
+
+Validating the model at the end of epoch 1 on valid dataset......
+Validate completed, avg loss: 3.6906.
+
+[0;36mtime[0m:  1h 42min  0s  73ms, [0;36mremaining[0m: 40h 47min 50s 278ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:   4.00%, [0;31mavg loss[0m: 2.1881
+[0;36mtime[0m:  1h 43min 15s 822ms, [0;36mremaining[0m: 40h 39min 54s 804ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:   4.06%, [0;31mavg loss[0m: 2.7832
+[0;36mtime[0m:  1h 44min 31s 511ms, [0;36mremaining[0m: 40h 32min  9s 604ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:   4.12%, [0;31mavg loss[0m: 2.7418
+[0;36mtime[0m:  1h 45min 48s 330ms, [0;36mremaining[0m: 40h 25min  1s 505ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:   4.18%, [0;31mavg loss[0m: 2.7640
+[0;36mtime[0m:  1h 47min  4s 698ms, [0;36mremaining[0m: 40h 17min 53s 173ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:   4.24%, [0;31mavg loss[0m: 2.7405
+[0;36mtime[0m:  1h 48min 20s 761ms, [0;36mremaining[0m: 40h 10min 47s 907ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:   4.30%, [0;31mavg loss[0m: 2.7837
+[0;36mtime[0m:  1h 49min 50s  46ms, [0;36mremaining[0m: 40h  8min 42s 224ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:   4.36%, [0;31mavg loss[0m: 2.7822
+[0;36mtime[0m:  1h 51min 25s 193ms, [0;36mremaining[0m: 40h  8min 44s 266ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:   4.42%, [0;31mavg loss[0m: 2.7729
+[0;36mtime[0m:  1h 53min  9s 554ms, [0;36mremaining[0m: 40h 12min  0s 100ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:   4.48%, [0;31mavg loss[0m: 2.7819
+[0;36mtime[0m:  1h 54min 44s 561ms, [0;36mremaining[0m: 40h 11min 51s 370ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:   4.54%, [0;31mavg loss[0m: 2.7548
+[0;36mtime[0m:  1h 56min 18s 384ms, [0;36mremaining[0m: 40h 11min 15s 836ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:   4.60%, [0;31mavg loss[0m: 2.7706
+[0;36mtime[0m:  1h 58min  1s  75ms, [0;36mremaining[0m: 40h 13min 40s 154ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:   4.66%, [0;31mavg loss[0m: 2.7659
+[0;36mtime[0m:  1h 59min 35s 355ms, [0;36mremaining[0m: 40h 13min  8s 467ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:   4.72%, [0;31mavg loss[0m: 2.7849
+[0;36mtime[0m:  2h  1min 21s 607ms, [0;36mremaining[0m: 40h 16min 33s 588ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:   4.78%, [0;31mavg loss[0m: 2.7671
+[0;36mtime[0m:  2h  2min 57s 168ms, [0;36mremaining[0m: 40h 16min 20s 881ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:   4.84%, [0;31mavg loss[0m: 2.7468
+[0;36mtime[0m:  2h  4min 31s 808ms, [0;36mremaining[0m: 40h 15min 48s 275ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:   4.90%, [0;31mavg loss[0m: 2.7468
+[0;36mtime[0m:  2h  6min 11s 983ms, [0;36mremaining[0m: 40h 17min  0s 173ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:   4.96%, [0;31mavg loss[0m: 2.7539
+[0;36mtime[0m:  2h  7min 54s 918ms, [0;36mremaining[0m: 40h 19min  0s 147ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:   5.02%, [0;31mavg loss[0m: 2.7769
+[0;36mtime[0m:  2h  9min 28s 806ms, [0;36mremaining[0m: 40h 18min  5s 876ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:   5.08%, [0;31mavg loss[0m: 2.7537
+[0;36mtime[0m:  2h 11min 14s  71ms, [0;36mremaining[0m: 40h 20min 40s 537ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:   5.14%, [0;31mavg loss[0m: 2.7813
+[0;36mtime[0m:  2h 12min 49s 190ms, [0;36mremaining[0m: 40h 20min  4s 338ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:   5.20%, [0;31mavg loss[0m: 2.7246
+[0;36mtime[0m:  2h 14min 24s 997ms, [0;36mremaining[0m: 40h 19min 39s 176ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:   5.26%, [0;31mavg loss[0m: 2.7413
+[0;36mtime[0m:  2h 16min  7s 857ms, [0;36mremaining[0m: 40h 21min 17s 846ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:   5.32%, [0;31mavg loss[0m: 2.7034
+[0;36mtime[0m:  2h 17min 48s 614ms, [0;36mremaining[0m: 40h 22min 15s  76ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:   5.38%, [0;31mavg loss[0m: 2.7899
+[0;36mtime[0m:  2h 19min 40s 486ms, [0;36mremaining[0m: 40h 26min 21s 874ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:   5.44%, [0;31mavg loss[0m: 2.7469
+[0;36mtime[0m:  2h 21min 12s 369ms, [0;36mremaining[0m: 40h 24min 37s 636ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:   5.50%, [0;31mavg loss[0m: 2.7305
+
+Validating the model at epoch 2, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.5998.
+
+[0;36mtime[0m:  2h 23min 33s 796ms, [0;36mremaining[0m: 40h 36min 54s 635ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:   5.56%, [0;31mavg loss[0m: 2.7234
+[0;36mtime[0m:  2h 25min 17s 939ms, [0;36mremaining[0m: 40h 38min 27s 140ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:   5.62%, [0;31mavg loss[0m: 2.7119
+[0;36mtime[0m:  2h 26min 55s 993ms, [0;36mremaining[0m: 40h 38min 14s 441ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:   5.68%, [0;31mavg loss[0m: 2.7469
+[0;36mtime[0m:  2h 28min 38s 503ms, [0;36mremaining[0m: 40h 39min 13s  72ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:   5.74%, [0;31mavg loss[0m: 2.7063
+[0;36mtime[0m:  2h 30min 14s 382ms, [0;36mremaining[0m: 40h 38min 20s 748ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:   5.80%, [0;31mavg loss[0m: 2.7234
+[0;36mtime[0m:  2h 31min 52s 536ms, [0;36mremaining[0m: 40h 38min  4s  59ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:   5.86%, [0;31mavg loss[0m: 2.7383
+[0;36mtime[0m:  2h 33min 29s 301ms, [0;36mremaining[0m: 40h 37min 23s 660ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:   5.92%, [0;31mavg loss[0m: 2.7111
+[0;36mtime[0m:  2h 35min  7s 331ms, [0;36mremaining[0m: 40h 37min  2s   7ms, [0;33mepoch[0m:  3/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:   5.98%, [0;31mavg loss[0m: 2.7384
+
+Validating the model at the end of epoch 2 on valid dataset......
+Validate completed, avg loss: 3.5428.
+
+[0;36mtime[0m:  2h 36min 14s 658ms, [0;36mremaining[0m: 40h 47min 41s 825ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:   6.00%, [0;31mavg loss[0m: 2.1824
+[0;36mtime[0m:  2h 37min 52s 940ms, [0;36mremaining[0m: 40h 47min 15s 340ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:   6.06%, [0;31mavg loss[0m: 2.4905
+[0;36mtime[0m:  2h 39min 36s 333ms, [0;36mremaining[0m: 40h 48min  5s 829ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:   6.12%, [0;31mavg loss[0m: 2.4984
+[0;36mtime[0m:  2h 41min  9s 984ms, [0;36mremaining[0m: 40h 46min 25s 450ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:   6.18%, [0;31mavg loss[0m: 2.4795
+[0;36mtime[0m:  2h 42min 51s 981ms, [0;36mremaining[0m: 40h 46min 50s 593ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:   6.24%, [0;31mavg loss[0m: 2.4937
+[0;36mtime[0m:  2h 44min 26s 777ms, [0;36mremaining[0m: 40h 45min 26s 224ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:   6.30%, [0;31mavg loss[0m: 2.5125
+[0;36mtime[0m:  2h 45min 59s 870ms, [0;36mremaining[0m: 40h 43min 36s 598ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:   6.36%, [0;31mavg loss[0m: 2.4971
+[0;36mtime[0m:  2h 47min 43s 920ms, [0;36mremaining[0m: 40h 44min 26s 947ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:   6.42%, [0;31mavg loss[0m: 2.5164
+[0;36mtime[0m:  2h 49min 24s 238ms, [0;36mremaining[0m: 40h 44min 20s 596ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:   6.48%, [0;31mavg loss[0m: 2.5297
+[0;36mtime[0m:  2h 51min  7s 780ms, [0;36mremaining[0m: 40h 44min 58s 569ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:   6.54%, [0;31mavg loss[0m: 2.5311
+[0;36mtime[0m:  2h 52min 46s 381ms, [0;36mremaining[0m: 40h 44min 24s  59ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:   6.60%, [0;31mavg loss[0m: 2.5502
+[0;36mtime[0m:  2h 54min 26s 477ms, [0;36mremaining[0m: 40h 44min  9s 352ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:   6.66%, [0;31mavg loss[0m: 2.5202
+[0;36mtime[0m:  2h 56min  2s 903ms, [0;36mremaining[0m: 40h 43min  2s 173ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:   6.72%, [0;31mavg loss[0m: 2.4889
+[0;36mtime[0m:  2h 57min 42s 361ms, [0;36mremaining[0m: 40h 42min 36s 167ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:   6.78%, [0;31mavg loss[0m: 2.5149
+[0;36mtime[0m:  2h 59min 24s 700ms, [0;36mremaining[0m: 40h 42min 48s  82ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:   6.84%, [0;31mavg loss[0m: 2.5273
+[0;36mtime[0m:  3h  1min  6s 523ms, [0;36mremaining[0m: 40h 42min 51s  54ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:   6.90%, [0;31mavg loss[0m: 2.4805
+[0;36mtime[0m:  3h  2min 48s 451ms, [0;36mremaining[0m: 40h 42min 53s 617ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:   6.96%, [0;31mavg loss[0m: 2.5437
+[0;36mtime[0m:  3h  4min 34s  74ms, [0;36mremaining[0m: 40h 43min 43s 317ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:   7.02%, [0;31mavg loss[0m: 2.5268
+[0;36mtime[0m:  3h  6min  8s 281ms, [0;36mremaining[0m: 40h 42min  0s 607ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:   7.08%, [0;31mavg loss[0m: 2.5091
+[0;36mtime[0m:  3h  7min 47s 487ms, [0;36mremaining[0m: 40h 41min 23s  33ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:   7.14%, [0;31mavg loss[0m: 2.5106
+[0;36mtime[0m:  3h  9min 20s 117ms, [0;36mremaining[0m: 40h 39min 19s 703ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:   7.20%, [0;31mavg loss[0m: 2.4920
+[0;36mtime[0m:  3h 10min 59s 985ms, [0;36mremaining[0m: 40h 38min 49s 299ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:   7.26%, [0;31mavg loss[0m: 2.5312
+[0;36mtime[0m:  3h 12min 39s 690ms, [0;36mremaining[0m: 40h 38min 15s 694ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:   7.32%, [0;31mavg loss[0m: 2.5320
+[0;36mtime[0m:  3h 14min 15s 665ms, [0;36mremaining[0m: 40h 36min 54s 225ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:   7.38%, [0;31mavg loss[0m: 2.5499
+[0;36mtime[0m:  3h 16min  4s 108ms, [0;36mremaining[0m: 40h 38min  7s 552ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:   7.44%, [0;31mavg loss[0m: 2.5417
+[0;36mtime[0m:  3h 17min 40s 427ms, [0;36mremaining[0m: 40h 36min 48s 515ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:   7.50%, [0;31mavg loss[0m: 2.5686
+
+Validating the model at epoch 3, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.5134.
+
+[0;36mtime[0m:  3h 20min  4s 317ms, [0;36mremaining[0m: 40h 45min 10s 590ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:   7.56%, [0;31mavg loss[0m: 2.4854
+[0;36mtime[0m:  3h 21min 52s 726ms, [0;36mremaining[0m: 40h 46min 12s 549ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:   7.62%, [0;31mavg loss[0m: 2.4989
+[0;36mtime[0m:  3h 23min 25s  76ms, [0;36mremaining[0m: 40h 43min 58s 901ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:   7.68%, [0;31mavg loss[0m: 2.5452
+[0;36mtime[0m:  3h 24min 59s 898ms, [0;36mremaining[0m: 40h 42min 15s 341ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:   7.74%, [0;31mavg loss[0m: 2.5473
+[0;36mtime[0m:  3h 26min 34s 414ms, [0;36mremaining[0m: 40h 40min 28s 301ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:   7.80%, [0;31mavg loss[0m: 2.5017
+[0;36mtime[0m:  3h 28min 15s 734ms, [0;36mremaining[0m: 40h 40min  1s 173ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:   7.86%, [0;31mavg loss[0m: 2.5165
+[0;36mtime[0m:  3h 29min 52s 121ms, [0;36mremaining[0m: 40h 38min 35s 590ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:   7.92%, [0;31mavg loss[0m: 2.5084
+[0;36mtime[0m:  3h 31min 32s  33ms, [0;36mremaining[0m: 40h 37min 50s 485ms, [0;33mepoch[0m:  4/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:   7.98%, [0;31mavg loss[0m: 2.5360
+
+Validating the model at the end of epoch 3 on valid dataset......
+Validate completed, avg loss: 3.4668.
+
+[0;36mtime[0m:  3h 32min 42s 436ms, [0;36mremaining[0m: 40h 46min  2s  21ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:   8.00%, [0;31mavg loss[0m: 2.3673
+[0;36mtime[0m:  3h 34min 17s 895ms, [0;36mremaining[0m: 40h 44min 21s   0ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:   8.06%, [0;31mavg loss[0m: 2.2732
+[0;36mtime[0m:  3h 35min 46s 438ms, [0;36mremaining[0m: 40h 41min 21s 809ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:   8.12%, [0;31mavg loss[0m: 2.2671
+[0;36mtime[0m:  3h 37min 27s 383ms, [0;36mremaining[0m: 40h 40min 43s 140ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:   8.18%, [0;31mavg loss[0m: 2.3135
+[0;36mtime[0m:  3h 38min 50s 706ms, [0;36mremaining[0m: 40h 36min 47s 355ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:   8.24%, [0;31mavg loss[0m: 2.3198
+[0;36mtime[0m:  3h 40min  5s 112ms, [0;36mremaining[0m: 40h 31min 15s 275ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:   8.30%, [0;31mavg loss[0m: 2.2862
+[0;36mtime[0m:  3h 41min 20s 479ms, [0;36mremaining[0m: 40h 25min 57s 423ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:   8.36%, [0;31mavg loss[0m: 2.3240
+[0;36mtime[0m:  3h 42min 36s 705ms, [0;36mremaining[0m: 40h 20min 52s 386ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:   8.42%, [0;31mavg loss[0m: 2.2980
+[0;36mtime[0m:  3h 43min 52s 486ms, [0;36mremaining[0m: 40h 15min 45s 789ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:   8.48%, [0;31mavg loss[0m: 2.3137
+[0;36mtime[0m:  3h 45min  8s 400ms, [0;36mremaining[0m: 40h 10min 43s 861ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:   8.54%, [0;31mavg loss[0m: 2.2801
+[0;36mtime[0m:  3h 46min 23s 840ms, [0;36mremaining[0m: 40h  5min 40s  50ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:   8.60%, [0;31mavg loss[0m: 2.3273
+[0;36mtime[0m:  3h 47min 38s 347ms, [0;36mremaining[0m: 40h  0min 29s 583ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:   8.66%, [0;31mavg loss[0m: 2.3464
+[0;36mtime[0m:  3h 48min 53s 436ms, [0;36mremaining[0m: 39h 55min 28s 455ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:   8.72%, [0;31mavg loss[0m: 2.3493
+[0;36mtime[0m:  3h 50min  9s  27ms, [0;36mremaining[0m: 39h 50min 35s 633ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:   8.78%, [0;31mavg loss[0m: 2.3581
+[0;36mtime[0m:  3h 51min 24s  71ms, [0;36mremaining[0m: 39h 45min 40s 136ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:   8.84%, [0;31mavg loss[0m: 2.3287
+[0;36mtime[0m:  3h 52min 40s 172ms, [0;36mremaining[0m: 39h 40min 58s 418ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:   8.90%, [0;31mavg loss[0m: 2.3501
+[0;36mtime[0m:  3h 53min 54s 657ms, [0;36mremaining[0m: 39h 36min  3s  61ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:   8.96%, [0;31mavg loss[0m: 2.3053
+[0;36mtime[0m:  3h 55min  9s 320ms, [0;36mremaining[0m: 39h 31min 12s 424ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:   9.02%, [0;31mavg loss[0m: 2.3724
+[0;36mtime[0m:  3h 56min 26s   3ms, [0;36mremaining[0m: 39h 26min 44s 883ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:   9.08%, [0;31mavg loss[0m: 2.3485
+[0;36mtime[0m:  3h 57min 44s 626ms, [0;36mremaining[0m: 39h 22min 39s 120ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:   9.14%, [0;31mavg loss[0m: 2.3643
+[0;36mtime[0m:  3h 59min  0s 523ms, [0;36mremaining[0m: 39h 18min  8s 650ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:   9.20%, [0;31mavg loss[0m: 2.3487
+[0;36mtime[0m:  4h  0min 16s 444ms, [0;36mremaining[0m: 39h 13min 40s 940ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:   9.26%, [0;31mavg loss[0m: 2.3433
+[0;36mtime[0m:  4h  1min 31s 911ms, [0;36mremaining[0m: 39h  9min 11s 290ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:   9.32%, [0;31mavg loss[0m: 2.3892
+[0;36mtime[0m:  4h  2min 47s 348ms, [0;36mremaining[0m: 39h  4min 43s 840ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:   9.38%, [0;31mavg loss[0m: 2.3612
+[0;36mtime[0m:  4h  4min  3s 686ms, [0;36mremaining[0m: 39h  0min 27s 467ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:   9.44%, [0;31mavg loss[0m: 2.3425
+[0;36mtime[0m:  4h  5min 19s   3ms, [0;36mremaining[0m: 38h 56min  3s 660ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:   9.50%, [0;31mavg loss[0m: 2.3321
+
+Validating the model at epoch 4, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.4489.
+
+[0;36mtime[0m:  4h  7min 10s 988ms, [0;36mremaining[0m: 38h 57min 28s 971ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:   9.56%, [0;31mavg loss[0m: 2.3714
+[0;36mtime[0m:  4h  8min 26s 440ms, [0;36mremaining[0m: 38h 53min  8s 722ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:   9.62%, [0;31mavg loss[0m: 2.3414
+[0;36mtime[0m:  4h  9min 41s 256ms, [0;36mremaining[0m: 38h 48min 44s 845ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:   9.68%, [0;31mavg loss[0m: 2.3839
+[0;36mtime[0m:  4h 10min 56s 677ms, [0;36mremaining[0m: 38h 44min 28s 899ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:   9.74%, [0;31mavg loss[0m: 2.3454
+[0;36mtime[0m:  4h 12min 11s 852ms, [0;36mremaining[0m: 38h 40min 12s 901ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:   9.80%, [0;31mavg loss[0m: 2.3488
+[0;36mtime[0m:  4h 13min 27s 156ms, [0;36mremaining[0m: 38h 36min  0s 295ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:   9.86%, [0;31mavg loss[0m: 2.3732
+[0;36mtime[0m:  4h 14min 42s 675ms, [0;36mremaining[0m: 38h 31min 51s 779ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:   9.92%, [0;31mavg loss[0m: 2.3627
+[0;36mtime[0m:  4h 15min 58s  46ms, [0;36mremaining[0m: 38h 27min 44s  20ms, [0;33mepoch[0m:  5/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:   9.98%, [0;31mavg loss[0m: 2.3460
+
+Validating the model at the end of epoch 4 on valid dataset......
+Validate completed, avg loss: 3.4443.
+
+[0;36mtime[0m:  4h 16min 55s 660ms, [0;36mremaining[0m: 38h 32min 16s 312ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  10.00%, [0;31mavg loss[0m: 2.4075
+[0;36mtime[0m:  4h 18min 10s 772ms, [0;36mremaining[0m: 38h 28min  6s 594ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  10.06%, [0;31mavg loss[0m: 2.0958
+[0;36mtime[0m:  4h 19min 26s 119ms, [0;36mremaining[0m: 38h 24min  1s  47ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  10.12%, [0;31mavg loss[0m: 2.1443
+[0;36mtime[0m:  4h 20min 42s 129ms, [0;36mremaining[0m: 38h 20min  3s 353ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  10.18%, [0;31mavg loss[0m: 2.1586
+[0;36mtime[0m:  4h 21min 57s 272ms, [0;36mremaining[0m: 38h 15min 59s 957ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  10.24%, [0;31mavg loss[0m: 2.1415
+[0;36mtime[0m:  4h 23min 11s 533ms, [0;36mremaining[0m: 38h 11min 50s 843ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  10.30%, [0;31mavg loss[0m: 2.1286
+[0;36mtime[0m:  4h 24min 26s 977ms, [0;36mremaining[0m: 38h  7min 53s 998ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  10.36%, [0;31mavg loss[0m: 2.1598
+[0;36mtime[0m:  4h 25min 42s  68ms, [0;36mremaining[0m: 38h  3min 55s 986ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  10.42%, [0;31mavg loss[0m: 2.1850
+[0;36mtime[0m:  4h 26min 58s 457ms, [0;36mremaining[0m: 38h  0min 10s 922ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  10.48%, [0;31mavg loss[0m: 2.1507
+[0;36mtime[0m:  4h 28min 13s 846ms, [0;36mremaining[0m: 37h 56min 19s  69ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  10.54%, [0;31mavg loss[0m: 2.1843
+[0;36mtime[0m:  4h 29min 29s 347ms, [0;36mremaining[0m: 37h 52min 29s 928ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  10.60%, [0;31mavg loss[0m: 2.1753
+[0;36mtime[0m:  4h 30min 44s 795ms, [0;36mremaining[0m: 37h 48min 42s  84ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  10.66%, [0;31mavg loss[0m: 2.1923
+[0;36mtime[0m:  4h 32min  0s  78ms, [0;36mremaining[0m: 37h 44min 54s 573ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  10.72%, [0;31mavg loss[0m: 2.1751
+[0;36mtime[0m:  4h 33min 15s 197ms, [0;36mremaining[0m: 37h 41min  7s 402ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  10.78%, [0;31mavg loss[0m: 2.1748
+[0;36mtime[0m:  4h 34min 31s 582ms, [0;36mremaining[0m: 37h 37min 32s 332ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  10.84%, [0;31mavg loss[0m: 2.2104
+[0;36mtime[0m:  4h 35min 47s 340ms, [0;36mremaining[0m: 37h 33min 53s 661ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  10.90%, [0;31mavg loss[0m: 2.2352
+[0;36mtime[0m:  4h 37min  2s 409ms, [0;36mremaining[0m: 37h 30min 10s 965ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  10.96%, [0;31mavg loss[0m: 2.1937
+[0;36mtime[0m:  4h 38min 17s 635ms, [0;36mremaining[0m: 37h 26min 31s 150ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  11.02%, [0;31mavg loss[0m: 2.1823
+[0;36mtime[0m:  4h 39min 33s 140ms, [0;36mremaining[0m: 37h 22min 55s 136ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  11.08%, [0;31mavg loss[0m: 2.1718
+[0;36mtime[0m:  4h 40min 48s 398ms, [0;36mremaining[0m: 37h 19min 18s 675ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  11.14%, [0;31mavg loss[0m: 2.2181
+[0;36mtime[0m:  4h 42min  3s 703ms, [0;36mremaining[0m: 37h 15min 44s  95ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  11.20%, [0;31mavg loss[0m: 2.2407
+[0;36mtime[0m:  4h 43min 21s 987ms, [0;36mremaining[0m: 37h 12min 34s 476ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  11.26%, [0;31mavg loss[0m: 2.2251
+[0;36mtime[0m:  4h 44min 40s 291ms, [0;36mremaining[0m: 37h  9min 26s 199ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  11.32%, [0;31mavg loss[0m: 2.1961
+[0;36mtime[0m:  4h 45min 58s 933ms, [0;36mremaining[0m: 37h  6min 21s 708ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  11.38%, [0;31mavg loss[0m: 2.2127
+[0;36mtime[0m:  4h 47min 17s 705ms, [0;36mremaining[0m: 37h  3min 19s 347ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  11.44%, [0;31mavg loss[0m: 2.2336
+[0;36mtime[0m:  4h 48min 33s 592ms, [0;36mremaining[0m: 36h 59min 55s 861ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  11.50%, [0;31mavg loss[0m: 2.2045
+
+Validating the model at epoch 5, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3913.
+
+[0;36mtime[0m:  4h 50min 25s 749ms, [0;36mremaining[0m: 37h  1min 11s  99ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  11.56%, [0;31mavg loss[0m: 2.2408
+[0;36mtime[0m:  4h 51min 40s 838ms, [0;36mremaining[0m: 36h 57min 42s 564ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  11.62%, [0;31mavg loss[0m: 2.1992
+[0;36mtime[0m:  4h 52min 56s 396ms, [0;36mremaining[0m: 36h 54min 18s 941ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  11.68%, [0;31mavg loss[0m: 2.2323
+[0;36mtime[0m:  4h 54min 11s 650ms, [0;36mremaining[0m: 36h 50min 54s 355ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  11.74%, [0;31mavg loss[0m: 2.2245
+[0;36mtime[0m:  4h 55min 27s 369ms, [0;36mremaining[0m: 36h 47min 34s 554ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  11.80%, [0;31mavg loss[0m: 2.2511
+[0;36mtime[0m:  4h 56min 43s 517ms, [0;36mremaining[0m: 36h 44min 19s 198ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  11.86%, [0;31mavg loss[0m: 2.2272
+[0;36mtime[0m:  4h 57min 58s  83ms, [0;36mremaining[0m: 36h 40min 53s 354ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  11.92%, [0;31mavg loss[0m: 2.1988
+[0;36mtime[0m:  4h 59min 13s 371ms, [0;36mremaining[0m: 36h 37min 34s 137ms, [0;33mepoch[0m:  6/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  11.98%, [0;31mavg loss[0m: 2.2144
+
+Validating the model at the end of epoch 5 on valid dataset......
+Validate completed, avg loss: 3.3680.
+
+[0;36mtime[0m:  5h  0min 10s 985ms, [0;36mremaining[0m: 36h 41min 16s 803ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  12.00%, [0;31mavg loss[0m: 1.8113
+[0;36mtime[0m:  5h  1min 26s 194ms, [0;36mremaining[0m: 36h 37min 57s   8ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  12.06%, [0;31mavg loss[0m: 1.9877
+[0;36mtime[0m:  5h  2min 41s 820ms, [0;36mremaining[0m: 36h 34min 41s 473ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  12.12%, [0;31mavg loss[0m: 2.0253
+[0;36mtime[0m:  5h  3min 56s 996ms, [0;36mremaining[0m: 36h 31min 23s 880ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  12.18%, [0;31mavg loss[0m: 1.9975
+[0;36mtime[0m:  5h  5min 12s 422ms, [0;36mremaining[0m: 36h 28min  9s 280ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  12.24%, [0;31mavg loss[0m: 2.0137
+[0;36mtime[0m:  5h  6min 27s 798ms, [0;36mremaining[0m: 36h 24min 55s 493ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  12.30%, [0;31mavg loss[0m: 2.0097
+[0;36mtime[0m:  5h  7min 42s 859ms, [0;36mremaining[0m: 36h 21min 40s 619ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  12.36%, [0;31mavg loss[0m: 2.0475
+[0;36mtime[0m:  5h  8min 58s 230ms, [0;36mremaining[0m: 36h 18min 29s  97ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  12.42%, [0;31mavg loss[0m: 2.0464
+[0;36mtime[0m:  5h 10min 13s 953ms, [0;36mremaining[0m: 36h 15min 21s 155ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  12.48%, [0;31mavg loss[0m: 2.0633
+[0;36mtime[0m:  5h 11min 29s 523ms, [0;36mremaining[0m: 36h 12min 13s 225ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  12.54%, [0;31mavg loss[0m: 2.0391
+[0;36mtime[0m:  5h 12min 44s 923ms, [0;36mremaining[0m: 36h  9min  5s 191ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  12.60%, [0;31mavg loss[0m: 2.0706
+[0;36mtime[0m:  5h 14min  0s  82ms, [0;36mremaining[0m: 36h  5min 56s 558ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  12.66%, [0;31mavg loss[0m: 2.0463
+[0;36mtime[0m:  5h 15min 15s 171ms, [0;36mremaining[0m: 36h  2min 48s 518ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  12.72%, [0;31mavg loss[0m: 2.0751
+[0;36mtime[0m:  5h 16min 30s 932ms, [0;36mremaining[0m: 35h 59min 46s 130ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  12.78%, [0;31mavg loss[0m: 2.0734
+[0;36mtime[0m:  5h 17min 46s 960ms, [0;36mremaining[0m: 35h 56min 46s 551ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  12.84%, [0;31mavg loss[0m: 2.0509
+[0;36mtime[0m:  5h 19min  2s 586ms, [0;36mremaining[0m: 35h 53min 45s 228ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  12.90%, [0;31mavg loss[0m: 2.0489
+[0;36mtime[0m:  5h 20min 18s 620ms, [0;36mremaining[0m: 35h 50min 47s 615ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  12.96%, [0;31mavg loss[0m: 2.1126
+[0;36mtime[0m:  5h 21min 33s 223ms, [0;36mremaining[0m: 35h 47min 41s 388ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  13.02%, [0;31mavg loss[0m: 2.0878
+[0;36mtime[0m:  5h 22min 48s 756ms, [0;36mremaining[0m: 35h 44min 42s 370ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  13.08%, [0;31mavg loss[0m: 2.0826
+[0;36mtime[0m:  5h 24min  3s 982ms, [0;36mremaining[0m: 35h 41min 42s 266ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  13.14%, [0;31mavg loss[0m: 2.1037
+[0;36mtime[0m:  5h 25min 20s 974ms, [0;36mremaining[0m: 35h 38min 54s 724ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  13.20%, [0;31mavg loss[0m: 2.0593
+[0;36mtime[0m:  5h 26min 39s 706ms, [0;36mremaining[0m: 35h 36min 19s 382ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  13.26%, [0;31mavg loss[0m: 2.0881
+[0;36mtime[0m:  5h 27min 58s 139ms, [0;36mremaining[0m: 35h 33min 42s 789ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  13.32%, [0;31mavg loss[0m: 2.1032
+[0;36mtime[0m:  5h 29min 16s 199ms, [0;36mremaining[0m: 35h 31min  4s 487ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  13.38%, [0;31mavg loss[0m: 2.0977
+[0;36mtime[0m:  5h 30min 35s 199ms, [0;36mremaining[0m: 35h 28min 32s 949ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  13.44%, [0;31mavg loss[0m: 2.0893
+[0;36mtime[0m:  5h 31min 57s 162ms, [0;36mremaining[0m: 35h 26min 21s  38ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  13.50%, [0;31mavg loss[0m: 2.1109
+
+Validating the model at epoch 6, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3930.
+
+EarlyStopping counter: 1 out of 20.
+
+[0;36mtime[0m:  5h 33min 55s  66ms, [0;36mremaining[0m: 35h 27min 58s 619ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  13.56%, [0;31mavg loss[0m: 2.1015
+[0;36mtime[0m:  5h 35min 10s 804ms, [0;36mremaining[0m: 35h 25min  6s 953ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  13.62%, [0;31mavg loss[0m: 2.1037
+[0;36mtime[0m:  5h 36min 26s 195ms, [0;36mremaining[0m: 35h 22min 13s 940ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  13.68%, [0;31mavg loss[0m: 2.1170
+[0;36mtime[0m:  5h 37min 42s  15ms, [0;36mremaining[0m: 35h 19min 24s 473ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  13.74%, [0;31mavg loss[0m: 2.0824
+[0;36mtime[0m:  5h 38min 58s  36ms, [0;36mremaining[0m: 35h 16min 37s  78ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  13.80%, [0;31mavg loss[0m: 2.1287
+[0;36mtime[0m:  5h 40min 13s 582ms, [0;36mremaining[0m: 35h 13min 47s 523ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  13.86%, [0;31mavg loss[0m: 2.1086
+[0;36mtime[0m:  5h 41min 29s 103ms, [0;36mremaining[0m: 35h 10min 58s 625ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  13.92%, [0;31mavg loss[0m: 2.1326
+[0;36mtime[0m:  5h 42min 44s 388ms, [0;36mremaining[0m: 35h  8min  9s  83ms, [0;33mepoch[0m:  7/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  13.98%, [0;31mavg loss[0m: 2.0742
+
+Validating the model at the end of epoch 6 on valid dataset......
+Validate completed, avg loss: 3.3876.
+
+EarlyStopping counter: 2 out of 20.
+
+[0;36mtime[0m:  5h 43min 41s 606ms, [0;36mremaining[0m: 35h 11min 12s 417ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  14.00%, [0;31mavg loss[0m: 1.8179
+[0;36mtime[0m:  5h 44min 56s 956ms, [0;36mremaining[0m: 35h  8min 23s 159ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  14.06%, [0;31mavg loss[0m: 1.8681
+[0;36mtime[0m:  5h 46min 12s 306ms, [0;36mremaining[0m: 35h  5min 34s 694ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  14.12%, [0;31mavg loss[0m: 1.8489
+[0;36mtime[0m:  5h 47min 27s 423ms, [0;36mremaining[0m: 35h  2min 45s 607ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  14.18%, [0;31mavg loss[0m: 1.8868
+[0;36mtime[0m:  5h 48min 43s 280ms, [0;36mremaining[0m: 35h  0min  1s 772ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  14.24%, [0;31mavg loss[0m: 1.9239
+[0;36mtime[0m:  5h 49min 57s 815ms, [0;36mremaining[0m: 34h 57min 10s 756ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  14.30%, [0;31mavg loss[0m: 1.9223
+[0;36mtime[0m:  5h 51min 22s 382ms, [0;36mremaining[0m: 34h 55min 20s 372ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  14.36%, [0;31mavg loss[0m: 1.8978
+[0;36mtime[0m:  5h 52min 51s 610ms, [0;36mremaining[0m: 34h 53min 57s 863ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  14.42%, [0;31mavg loss[0m: 1.9297
+[0;36mtime[0m:  5h 54min 21s 594ms, [0;36mremaining[0m: 34h 52min 39s 760ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  14.48%, [0;31mavg loss[0m: 1.9402
+[0;36mtime[0m:  5h 55min 50s 940ms, [0;36mremaining[0m: 34h 51min 17s 809ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  14.54%, [0;31mavg loss[0m: 1.9442
+[0;36mtime[0m:  5h 57min  6s 669ms, [0;36mremaining[0m: 34h 48min 36s 160ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  14.60%, [0;31mavg loss[0m: 1.9453
+[0;36mtime[0m:  5h 58min 22s  85ms, [0;36mremaining[0m: 34h 45min 53s 391ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  14.66%, [0;31mavg loss[0m: 1.9915
+[0;36mtime[0m:  5h 59min 36s 866ms, [0;36mremaining[0m: 34h 43min  7s 659ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  14.72%, [0;31mavg loss[0m: 1.9478
+[0;36mtime[0m:  6h  0min 52s 672ms, [0;36mremaining[0m: 34h 40min 28s 575ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  14.78%, [0;31mavg loss[0m: 1.9708
+[0;36mtime[0m:  6h  2min  7s 626ms, [0;36mremaining[0m: 34h 37min 45s 277ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  14.84%, [0;31mavg loss[0m: 1.9666
+[0;36mtime[0m:  6h  3min 22s 756ms, [0;36mremaining[0m: 34h 35min  3s 695ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  14.90%, [0;31mavg loss[0m: 1.9840
+[0;36mtime[0m:  6h  4min 38s 668ms, [0;36mremaining[0m: 34h 32min 27s 257ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  14.96%, [0;31mavg loss[0m: 2.0028
+[0;36mtime[0m:  6h  5min 54s 108ms, [0;36mremaining[0m: 34h 29min 48s 789ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  15.02%, [0;31mavg loss[0m: 1.9836
+[0;36mtime[0m:  6h  7min  9s 158ms, [0;36mremaining[0m: 34h 27min  8s 790ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  15.08%, [0;31mavg loss[0m: 1.9789
+[0;36mtime[0m:  6h  8min 25s  18ms, [0;36mremaining[0m: 34h 24min 34s   3ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  15.14%, [0;31mavg loss[0m: 1.9688
+[0;36mtime[0m:  6h  9min 40s 181ms, [0;36mremaining[0m: 34h 21min 55s 954ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  15.20%, [0;31mavg loss[0m: 2.0192
+[0;36mtime[0m:  6h 10min 55s 836ms, [0;36mremaining[0m: 34h 19min 21s 287ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  15.26%, [0;31mavg loss[0m: 1.9735
+[0;36mtime[0m:  6h 12min 11s 438ms, [0;36mremaining[0m: 34h 16min 46s 949ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  15.32%, [0;31mavg loss[0m: 2.0030
+[0;36mtime[0m:  6h 13min 27s 334ms, [0;36mremaining[0m: 34h 14min 14s 845ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  15.38%, [0;31mavg loss[0m: 2.0046
+[0;36mtime[0m:  6h 14min 41s 955ms, [0;36mremaining[0m: 34h 11min 36s 348ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  15.44%, [0;31mavg loss[0m: 1.9956
+[0;36mtime[0m:  6h 15min 57s 322ms, [0;36mremaining[0m: 34h  9min  2s 574ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  15.50%, [0;31mavg loss[0m: 1.9890
+
+Validating the model at epoch 7, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3588.
+
+[0;36mtime[0m:  6h 17min 49s 914ms, [0;36mremaining[0m: 34h  9min 51s 361ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  15.56%, [0;31mavg loss[0m: 2.0110
+[0;36mtime[0m:  6h 19min  4s 634ms, [0;36mremaining[0m: 34h  7min 14s 374ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  15.62%, [0;31mavg loss[0m: 2.0386
+[0;36mtime[0m:  6h 20min 18s 498ms, [0;36mremaining[0m: 34h  4min 33s 416ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  15.68%, [0;31mavg loss[0m: 2.0128
+[0;36mtime[0m:  6h 21min 33s 738ms, [0;36mremaining[0m: 34h  2min  0s 489ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  15.74%, [0;31mavg loss[0m: 2.0072
+[0;36mtime[0m:  6h 22min 49s  26ms, [0;36mremaining[0m: 33h 59min 28s 407ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  15.80%, [0;31mavg loss[0m: 2.0072
+[0;36mtime[0m:  6h 24min  3s 801ms, [0;36mremaining[0m: 33h 56min 54s 184ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  15.86%, [0;31mavg loss[0m: 2.0196
+[0;36mtime[0m:  6h 25min 19s 527ms, [0;36mremaining[0m: 33h 54min 25s 586ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  15.92%, [0;31mavg loss[0m: 2.0197
+[0;36mtime[0m:  6h 26min 34s 354ms, [0;36mremaining[0m: 33h 51min 52s 808ms, [0;33mepoch[0m:  8/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  15.98%, [0;31mavg loss[0m: 2.0201
+
+Validating the model at the end of epoch 7 on valid dataset......
+Validate completed, avg loss: 3.3781.
+
+EarlyStopping counter: 1 out of 20.
+
+[0;36mtime[0m:  6h 27min 31s 574ms, [0;36mremaining[0m: 33h 54min 28s  35ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  16.00%, [0;31mavg loss[0m: 1.9505
+[0;36mtime[0m:  6h 28min 46s 370ms, [0;36mremaining[0m: 33h 51min 54s 962ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  16.06%, [0;31mavg loss[0m: 1.7901
+[0;36mtime[0m:  6h 30min  0s 951ms, [0;36mremaining[0m: 33h 49min 21s 353ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  16.12%, [0;31mavg loss[0m: 1.8086
+[0;36mtime[0m:  6h 31min 15s 941ms, [0;36mremaining[0m: 33h 46min 50s 454ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  16.18%, [0;31mavg loss[0m: 1.7873
+[0;36mtime[0m:  6h 32min 31s 366ms, [0;36mremaining[0m: 33h 44min 22s 358ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  16.24%, [0;31mavg loss[0m: 1.8066
+[0;36mtime[0m:  6h 33min 46s 595ms, [0;36mremaining[0m: 33h 41min 53s 790ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  16.30%, [0;31mavg loss[0m: 1.8467
+[0;36mtime[0m:  6h 35min  1s 423ms, [0;36mremaining[0m: 33h 39min 23s 715ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  16.36%, [0;31mavg loss[0m: 1.8368
+[0;36mtime[0m:  6h 36min 17s 223ms, [0;36mremaining[0m: 33h 36min 59s 131ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  16.42%, [0;31mavg loss[0m: 1.8387
+[0;36mtime[0m:  6h 37min 33s  11ms, [0;36mremaining[0m: 33h 34min 34s 994ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  16.48%, [0;31mavg loss[0m: 1.8006
+[0;36mtime[0m:  6h 38min 48s 706ms, [0;36mremaining[0m: 33h 32min 10s 886ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  16.54%, [0;31mavg loss[0m: 1.8690
+[0;36mtime[0m:  6h 40min  4s 476ms, [0;36mremaining[0m: 33h 29min 47s 645ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  16.60%, [0;31mavg loss[0m: 1.8654
+[0;36mtime[0m:  6h 41min 19s 287ms, [0;36mremaining[0m: 33h 27min 20s  98ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  16.66%, [0;31mavg loss[0m: 1.8774
+[0;36mtime[0m:  6h 42min 35s 269ms, [0;36mremaining[0m: 33h 24min 58s 906ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  16.72%, [0;31mavg loss[0m: 1.8711
+[0;36mtime[0m:  6h 43min 51s   7ms, [0;36mremaining[0m: 33h 22min 36s 967ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  16.78%, [0;31mavg loss[0m: 1.8862
+[0;36mtime[0m:  6h 45min  6s 926ms, [0;36mremaining[0m: 33h 20min 16s 400ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  16.84%, [0;31mavg loss[0m: 1.8910
+[0;36mtime[0m:  6h 46min 21s 940ms, [0;36mremaining[0m: 33h 17min 51s 838ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  16.90%, [0;31mavg loss[0m: 1.8867
+[0;36mtime[0m:  6h 47min 37s 499ms, [0;36mremaining[0m: 33h 15min 30s 440ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  16.96%, [0;31mavg loss[0m: 1.8548
+[0;36mtime[0m:  6h 48min 52s 312ms, [0;36mremaining[0m: 33h 13min  5s 872ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  17.02%, [0;31mavg loss[0m: 1.9007
+[0;36mtime[0m:  6h 50min  7s 579ms, [0;36mremaining[0m: 33h 10min 43s 995ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  17.08%, [0;31mavg loss[0m: 1.9170
+[0;36mtime[0m:  6h 51min 23s 482ms, [0;36mremaining[0m: 33h  8min 25s 662ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  17.14%, [0;31mavg loss[0m: 1.9019
+[0;36mtime[0m:  6h 52min 39s 222ms, [0;36mremaining[0m: 33h  6min  6s 980ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  17.20%, [0;31mavg loss[0m: 1.9161
+[0;36mtime[0m:  6h 53min 54s 464ms, [0;36mremaining[0m: 33h  3min 46s 352ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  17.26%, [0;31mavg loss[0m: 1.9224
+[0;36mtime[0m:  6h 55min 10s 256ms, [0;36mremaining[0m: 33h  1min 28s 799ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  17.32%, [0;31mavg loss[0m: 1.8978
+[0;36mtime[0m:  6h 56min 26s 454ms, [0;36mremaining[0m: 32h 59min 13s 606ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  17.38%, [0;31mavg loss[0m: 1.8978
+[0;36mtime[0m:  6h 57min 41s 708ms, [0;36mremaining[0m: 32h 56min 54s 347ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  17.44%, [0;31mavg loss[0m: 1.9099
+[0;36mtime[0m:  6h 58min 57s 266ms, [0;36mremaining[0m: 32h 54min 36s 966ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  17.50%, [0;31mavg loss[0m: 1.9298
+
+Validating the model at epoch 8, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3606.
+
+EarlyStopping counter: 2 out of 20.
+
+[0;36mtime[0m:  7h  0min 52s 409ms, [0;36mremaining[0m: 32h 55min 25s 803ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  17.56%, [0;31mavg loss[0m: 1.9150
+[0;36mtime[0m:  7h  2min 11s 165ms, [0;36mremaining[0m: 32h 53min 23s 444ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  17.62%, [0;31mavg loss[0m: 1.9070
+[0;36mtime[0m:  7h  3min 28s 301ms, [0;36mremaining[0m: 32h 51min 13s 834ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  17.68%, [0;31mavg loss[0m: 1.8833
+[0;36mtime[0m:  7h  4min 44s 120ms, [0;36mremaining[0m: 32h 48min 58s 480ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  17.74%, [0;31mavg loss[0m: 1.9039
+[0;36mtime[0m:  7h  5min 59s 859ms, [0;36mremaining[0m: 32h 46min 43s 157ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  17.80%, [0;31mavg loss[0m: 1.9428
+[0;36mtime[0m:  7h  7min 15s 873ms, [0;36mremaining[0m: 32h 44min 29s 499ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  17.86%, [0;31mavg loss[0m: 1.9064
+[0;36mtime[0m:  7h  8min 31s 175ms, [0;36mremaining[0m: 32h 42min 12s 969ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  17.92%, [0;31mavg loss[0m: 1.9432
+[0;36mtime[0m:  7h  9min 46s 247ms, [0;36mremaining[0m: 32h 39min 55s 794ms, [0;33mepoch[0m:  9/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  17.98%, [0;31mavg loss[0m: 1.9309
+
+Validating the model at the end of epoch 8 on valid dataset......
+Validate completed, avg loss: 3.3460.
+
+[0;36mtime[0m:  7h 10min 43s 920ms, [0;36mremaining[0m: 32h 42min 11s  18ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  18.00%, [0;31mavg loss[0m: 1.7660
+[0;36mtime[0m:  7h 11min 59s 842ms, [0;36mremaining[0m: 32h 39min 57s 531ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  18.06%, [0;31mavg loss[0m: 1.7168
+[0;36mtime[0m:  7h 13min 15s 633ms, [0;36mremaining[0m: 32h 37min 43s 832ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  18.12%, [0;31mavg loss[0m: 1.7176
+[0;36mtime[0m:  7h 14min 31s 500ms, [0;36mremaining[0m: 32h 35min 30s 858ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  18.18%, [0;31mavg loss[0m: 1.7271
+[0;36mtime[0m:  7h 15min 46s 938ms, [0;36mremaining[0m: 32h 33min 16s 341ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  18.24%, [0;31mavg loss[0m: 1.7256
+[0;36mtime[0m:  7h 17min  2s 172ms, [0;36mremaining[0m: 32h 31min  1s 297ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  18.30%, [0;31mavg loss[0m: 1.7770
+[0;36mtime[0m:  7h 18min 16s 794ms, [0;36mremaining[0m: 32h 28min 43s 925ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  18.36%, [0;31mavg loss[0m: 1.7606
+[0;36mtime[0m:  7h 19min 32s  20ms, [0;36mremaining[0m: 32h 26min 29s 640ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  18.42%, [0;31mavg loss[0m: 1.7813
+[0;36mtime[0m:  7h 20min 49s 900ms, [0;36mremaining[0m: 32h 24min 27s 441ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  18.48%, [0;31mavg loss[0m: 1.7585
+[0;36mtime[0m:  7h 22min 11s 859ms, [0;36mremaining[0m: 32h 22min 43s 453ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  18.54%, [0;31mavg loss[0m: 1.7711
+[0;36mtime[0m:  7h 23min 27s  79ms, [0;36mremaining[0m: 32h 20min 30s 120ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  18.60%, [0;31mavg loss[0m: 1.7950
+[0;36mtime[0m:  7h 24min 42s 152ms, [0;36mremaining[0m: 32h 18min 16s 517ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  18.66%, [0;31mavg loss[0m: 1.7895
+[0;36mtime[0m:  7h 25min 57s 716ms, [0;36mremaining[0m: 32h 16min  5s 421ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  18.72%, [0;31mavg loss[0m: 1.7963
+[0;36mtime[0m:  7h 27min 13s 511ms, [0;36mremaining[0m: 32h 13min 55s 683ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  18.78%, [0;31mavg loss[0m: 1.7984
+[0;36mtime[0m:  7h 28min 28s 803ms, [0;36mremaining[0m: 32h 11min 44s 121ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  18.84%, [0;31mavg loss[0m: 1.7920
+[0;36mtime[0m:  7h 29min 44s  72ms, [0;36mremaining[0m: 32h  9min 32s 816ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  18.90%, [0;31mavg loss[0m: 1.8297
+[0;36mtime[0m:  7h 31min  0s 172ms, [0;36mremaining[0m: 32h  7min 25s 424ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  18.96%, [0;31mavg loss[0m: 1.7959
+[0;36mtime[0m:  7h 32min 15s 629ms, [0;36mremaining[0m: 32h  5min 15s 614ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  19.02%, [0;31mavg loss[0m: 1.7807
+[0;36mtime[0m:  7h 33min 31s 274ms, [0;36mremaining[0m: 32h  3min  6s 944ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  19.08%, [0;31mavg loss[0m: 1.8150
+[0;36mtime[0m:  7h 34min 46s 875ms, [0;36mremaining[0m: 32h  0min 58s 420ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  19.14%, [0;31mavg loss[0m: 1.8176
+[0;36mtime[0m:  7h 36min  2s 884ms, [0;36mremaining[0m: 31h 58min 51s 950ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  19.20%, [0;31mavg loss[0m: 1.8221
+[0;36mtime[0m:  7h 37min 21s 444ms, [0;36mremaining[0m: 31h 56min 56s 482ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  19.26%, [0;31mavg loss[0m: 1.8250
+[0;36mtime[0m:  7h 38min 36s 799ms, [0;36mremaining[0m: 31h 54min 47s 861ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  19.32%, [0;31mavg loss[0m: 1.8362
+[0;36mtime[0m:  7h 39min 52s 901ms, [0;36mremaining[0m: 31h 52min 42s 681ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  19.38%, [0;31mavg loss[0m: 1.8234
+[0;36mtime[0m:  7h 41min  9s 129ms, [0;36mremaining[0m: 31h 50min 38s 326ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  19.44%, [0;31mavg loss[0m: 1.8535
+[0;36mtime[0m:  7h 42min 24s  39ms, [0;36mremaining[0m: 31h 48min 28s 827ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  19.50%, [0;31mavg loss[0m: 1.8232
+
+Validating the model at epoch 9, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3704.
+
+EarlyStopping counter: 1 out of 20.
+
+[0;36mtime[0m:  7h 44min 15s 319ms, [0;36mremaining[0m: 31h 48min 49s 202ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  19.56%, [0;31mavg loss[0m: 1.8681
+[0;36mtime[0m:  7h 45min 31s 178ms, [0;36mremaining[0m: 31h 46min 43s 688ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  19.62%, [0;31mavg loss[0m: 1.8685
+[0;36mtime[0m:  7h 46min 46s 669ms, [0;36mremaining[0m: 31h 44min 36s 978ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  19.68%, [0;31mavg loss[0m: 1.8655
+[0;36mtime[0m:  7h 48min  2s 232ms, [0;36mremaining[0m: 31h 42min 30s 868ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  19.74%, [0;31mavg loss[0m: 1.8381
+[0;36mtime[0m:  7h 49min 18s 403ms, [0;36mremaining[0m: 31h 40min 27s 529ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  19.80%, [0;31mavg loss[0m: 1.8555
+[0;36mtime[0m:  7h 50min 33s 884ms, [0;36mremaining[0m: 31h 38min 21s 694ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  19.86%, [0;31mavg loss[0m: 1.8367
+[0;36mtime[0m:  7h 51min 48s 877ms, [0;36mremaining[0m: 31h 36min 14s 200ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  19.92%, [0;31mavg loss[0m: 1.8471
+[0;36mtime[0m:  7h 53min  4s 816ms, [0;36mremaining[0m: 31h 34min 10s 811ms, [0;33mepoch[0m: 10/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  19.98%, [0;31mavg loss[0m: 1.8393
+
+Validating the model at the end of epoch 9 on valid dataset......
+Validate completed, avg loss: 3.3644.
+
+EarlyStopping counter: 2 out of 20.
+
+[0;36mtime[0m:  7h 54min  2s 188ms, [0;36mremaining[0m: 31h 36min  6s 617ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  20.00%, [0;31mavg loss[0m: 1.6622
+[0;36mtime[0m:  7h 55min 17s 616ms, [0;36mremaining[0m: 31h 34min  0s 992ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  20.06%, [0;31mavg loss[0m: 1.6308
+[0;36mtime[0m:  7h 56min 33s 751ms, [0;36mremaining[0m: 31h 31min 58s 477ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  20.12%, [0;31mavg loss[0m: 1.6372
+[0;36mtime[0m:  7h 57min 49s 250ms, [0;36mremaining[0m: 31h 29min 53s 721ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  20.18%, [0;31mavg loss[0m: 1.6311
+[0;36mtime[0m:  7h 59min  3s 438ms, [0;36mremaining[0m: 31h 27min 44s  90ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  20.24%, [0;31mavg loss[0m: 1.6581
+[0;36mtime[0m:  8h  0min 16s 961ms, [0;36mremaining[0m: 31h 25min 32s 181ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  20.30%, [0;31mavg loss[0m: 1.6550
+[0;36mtime[0m:  8h  1min 31s 590ms, [0;36mremaining[0m: 31h 23min 24s 939ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  20.36%, [0;31mavg loss[0m: 1.6771
+[0;36mtime[0m:  8h  2min 47s 276ms, [0;36mremaining[0m: 31h 21min 22s 129ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  20.42%, [0;31mavg loss[0m: 1.6799
+[0;36mtime[0m:  8h  4min  2s 606ms, [0;36mremaining[0m: 31h 19min 18s 211ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  20.48%, [0;31mavg loss[0m: 1.7026
+[0;36mtime[0m:  8h  5min 17s 960ms, [0;36mremaining[0m: 31h 17min 14s 671ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  20.54%, [0;31mavg loss[0m: 1.7209
+[0;36mtime[0m:  8h  6min 33s 119ms, [0;36mremaining[0m: 31h 15min 10s 661ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  20.60%, [0;31mavg loss[0m: 1.7104
+[0;36mtime[0m:  8h  7min 48s 127ms, [0;36mremaining[0m: 31h 13min  6s 356ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  20.66%, [0;31mavg loss[0m: 1.7351
+[0;36mtime[0m:  8h  9min  3s 373ms, [0;36mremaining[0m: 31h 11min  3s 246ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  20.72%, [0;31mavg loss[0m: 1.7254
+[0;36mtime[0m:  8h 10min 19s 451ms, [0;36mremaining[0m: 31h  9min  3s 585ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  20.78%, [0;31mavg loss[0m: 1.7439
+[0;36mtime[0m:  8h 11min 34s 292ms, [0;36mremaining[0m: 31h  6min 59s 479ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  20.84%, [0;31mavg loss[0m: 1.7495
+[0;36mtime[0m:  8h 12min 48s 824ms, [0;36mremaining[0m: 31h  4min 54s 484ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  20.90%, [0;31mavg loss[0m: 1.7284
+[0;36mtime[0m:  8h 14min  4s 332ms, [0;36mremaining[0m: 31h  2min 53s 460ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  20.96%, [0;31mavg loss[0m: 1.7682
+[0;36mtime[0m:  8h 15min 19s 163ms, [0;36mremaining[0m: 31h  0min 50s 153ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  21.02%, [0;31mavg loss[0m: 1.7581
+[0;36mtime[0m:  8h 16min 34s 523ms, [0;36mremaining[0m: 30h 58min 49s 105ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  21.08%, [0;31mavg loss[0m: 1.7358
+[0;36mtime[0m:  8h 17min 50s 495ms, [0;36mremaining[0m: 30h 56min 50s 598ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  21.14%, [0;31mavg loss[0m: 1.7345
+[0;36mtime[0m:  8h 19min  5s 741ms, [0;36mremaining[0m: 30h 54min 49s 630ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  21.20%, [0;31mavg loss[0m: 1.7894
+[0;36mtime[0m:  8h 20min 22s  41ms, [0;36mremaining[0m: 30h 52min 52s 828ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  21.26%, [0;31mavg loss[0m: 1.7464
+[0;36mtime[0m:  8h 21min 37s 699ms, [0;36mremaining[0m: 30h 50min 53s 884ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  21.32%, [0;31mavg loss[0m: 1.7394
+[0;36mtime[0m:  8h 22min 52s 671ms, [0;36mremaining[0m: 30h 48min 52s 664ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  21.38%, [0;31mavg loss[0m: 1.7379
+[0;36mtime[0m:  8h 24min  8s  59ms, [0;36mremaining[0m: 30h 46min 53s 225ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  21.44%, [0;31mavg loss[0m: 1.7726
+[0;36mtime[0m:  8h 25min 23s 364ms, [0;36mremaining[0m: 30h 44min 53s 730ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  21.50%, [0;31mavg loss[0m: 1.7583
+
+Validating the model at epoch 10, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3794.
+
+EarlyStopping counter: 3 out of 20.
+
+[0;36mtime[0m:  8h 27min 16s 779ms, [0;36mremaining[0m: 30h 45min 13s 103ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  21.56%, [0;31mavg loss[0m: 1.7889
+[0;36mtime[0m:  8h 28min 32s 260ms, [0;36mremaining[0m: 30h 43min 14s 245ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  21.62%, [0;31mavg loss[0m: 1.7715
+[0;36mtime[0m:  8h 29min 47s 948ms, [0;36mremaining[0m: 30h 41min 16s 374ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  21.68%, [0;31mavg loss[0m: 1.8018
+[0;36mtime[0m:  8h 31min  3s 289ms, [0;36mremaining[0m: 30h 39min 17s 490ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  21.74%, [0;31mavg loss[0m: 1.8007
+[0;36mtime[0m:  8h 32min 18s 671ms, [0;36mremaining[0m: 30h 37min 18s 992ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  21.80%, [0;31mavg loss[0m: 1.7673
+[0;36mtime[0m:  8h 33min 35s 195ms, [0;36mremaining[0m: 30h 35min 24s 810ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  21.86%, [0;31mavg loss[0m: 1.7986
+[0;36mtime[0m:  8h 34min 54s 364ms, [0;36mremaining[0m: 30h 33min 40s 257ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  21.92%, [0;31mavg loss[0m: 1.7938
+[0;36mtime[0m:  8h 36min 12s 604ms, [0;36mremaining[0m: 30h 31min 52s 543ms, [0;33mepoch[0m: 11/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  21.98%, [0;31mavg loss[0m: 1.7980
+
+Validating the model at the end of epoch 10 on valid dataset......
+Validate completed, avg loss: 3.3371.
+
+[0;36mtime[0m:  8h 37min 12s 744ms, [0;36mremaining[0m: 30h 33min 43s 258ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  22.00%, [0;31mavg loss[0m: 1.9021
+[0;36mtime[0m:  8h 38min 28s 235ms, [0;36mremaining[0m: 30h 31min 45s 550ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  22.06%, [0;31mavg loss[0m: 1.6021
+[0;36mtime[0m:  8h 39min 43s 927ms, [0;36mremaining[0m: 30h 29min 48s 778ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  22.12%, [0;31mavg loss[0m: 1.6032
+[0;36mtime[0m:  8h 40min 59s  51ms, [0;36mremaining[0m: 30h 27min 50s 236ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  22.18%, [0;31mavg loss[0m: 1.5935
+[0;36mtime[0m:  8h 42min 14s 133ms, [0;36mremaining[0m: 30h 25min 51s 785ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  22.24%, [0;31mavg loss[0m: 1.6032
+[0;36mtime[0m:  8h 43min 30s 431ms, [0;36mremaining[0m: 30h 23min 57s 803ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  22.30%, [0;31mavg loss[0m: 1.6177
+[0;36mtime[0m:  8h 44min 48s  50ms, [0;36mremaining[0m: 30h 22min  8s 609ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  22.36%, [0;31mavg loss[0m: 1.6230
+[0;36mtime[0m:  8h 46min  6s 763ms, [0;36mremaining[0m: 30h 20min 23s 369ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  22.42%, [0;31mavg loss[0m: 1.6322
+[0;36mtime[0m:  8h 47min 25s 775ms, [0;36mremaining[0m: 30h 18min 39s 304ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  22.48%, [0;31mavg loss[0m: 1.6569
+[0;36mtime[0m:  8h 48min 44s   9ms, [0;36mremaining[0m: 30h 16min 52s 698ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  22.54%, [0;31mavg loss[0m: 1.6285
+[0;36mtime[0m:  8h 50min  3s 592ms, [0;36mremaining[0m: 30h 15min 10s 862ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  22.60%, [0;31mavg loss[0m: 1.6243
+[0;36mtime[0m:  8h 51min 22s 472ms, [0;36mremaining[0m: 30h 13min 26s 745ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  22.66%, [0;31mavg loss[0m: 1.6722
+[0;36mtime[0m:  8h 52min 40s 451ms, [0;36mremaining[0m: 30h 11min 39s 698ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  22.72%, [0;31mavg loss[0m: 1.6764
+[0;36mtime[0m:  8h 53min 59s 548ms, [0;36mremaining[0m: 30h  9min 56s 594ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  22.78%, [0;31mavg loss[0m: 1.6569
+[0;36mtime[0m:  8h 55min 17s 227ms, [0;36mremaining[0m: 30h  8min  8s 827ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  22.84%, [0;31mavg loss[0m: 1.6521
+[0;36mtime[0m:  8h 56min 33s 317ms, [0;36mremaining[0m: 30h  6min 15s 870ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  22.90%, [0;31mavg loss[0m: 1.6694
+[0;36mtime[0m:  8h 57min 47s 983ms, [0;36mremaining[0m: 30h  4min 18s 324ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  22.96%, [0;31mavg loss[0m: 1.7070
+[0;36mtime[0m:  8h 59min  2s 756ms, [0;36mremaining[0m: 30h  2min 21s 365ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  23.02%, [0;31mavg loss[0m: 1.6643
+[0;36mtime[0m:  9h  0min 18s  56ms, [0;36mremaining[0m: 30h  0min 26s 379ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  23.08%, [0;31mavg loss[0m: 1.6758
+[0;36mtime[0m:  9h  1min 32s 880ms, [0;36mremaining[0m: 29h 58min 30s  17ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  23.14%, [0;31mavg loss[0m: 1.6782
+[0;36mtime[0m:  9h  2min 49s 966ms, [0;36mremaining[0m: 29h 56min 41s 359ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  23.20%, [0;31mavg loss[0m: 1.6893
+[0;36mtime[0m:  9h  4min  7s 844ms, [0;36mremaining[0m: 29h 54min 55s 477ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  23.26%, [0;31mavg loss[0m: 1.7296
+[0;36mtime[0m:  9h  5min 26s  51ms, [0;36mremaining[0m: 29h 53min 10s 819ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  23.32%, [0;31mavg loss[0m: 1.7064
+[0;36mtime[0m:  9h  6min 41s  30ms, [0;36mremaining[0m: 29h 51min 15s 724ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  23.38%, [0;31mavg loss[0m: 1.6888
+[0;36mtime[0m:  9h  7min 56s  91ms, [0;36mremaining[0m: 29h 49min 21s 101ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  23.44%, [0;31mavg loss[0m: 1.7090
+[0;36mtime[0m:  9h  9min 11s 376ms, [0;36mremaining[0m: 29h 47min 27s 408ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  23.50%, [0;31mavg loss[0m: 1.7129
+
+Validating the model at epoch 11, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3663.
+
+EarlyStopping counter: 1 out of 20.
+
+[0;36mtime[0m:  9h 11min  4s 121ms, [0;36mremaining[0m: 29h 47min 35s 425ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  23.56%, [0;31mavg loss[0m: 1.7257
+[0;36mtime[0m:  9h 12min 20s  39ms, [0;36mremaining[0m: 29h 45min 43s 766ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  23.62%, [0;31mavg loss[0m: 1.7169
+[0;36mtime[0m:  9h 13min 37s 912ms, [0;36mremaining[0m: 29h 43min 58s 587ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  23.68%, [0;31mavg loss[0m: 1.7089
+[0;36mtime[0m:  9h 14min 56s 534ms, [0;36mremaining[0m: 29h 42min 15s 953ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  23.74%, [0;31mavg loss[0m: 1.7201
+[0;36mtime[0m:  9h 16min 24s 490ms, [0;36mremaining[0m: 29h 41min  3s 316ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  23.80%, [0;31mavg loss[0m: 1.7297
+[0;36mtime[0m:  9h 17min 54s 164ms, [0;36mremaining[0m: 29h 39min 56s  84ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  23.86%, [0;31mavg loss[0m: 1.7179
+[0;36mtime[0m:  9h 19min 23s 157ms, [0;36mremaining[0m: 29h 38min 46s 574ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  23.92%, [0;31mavg loss[0m: 1.7340
+[0;36mtime[0m:  9h 20min 42s  75ms, [0;36mremaining[0m: 29h 37min  5s  36ms, [0;33mepoch[0m: 12/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  23.98%, [0;31mavg loss[0m: 1.7089
+
+Validating the model at the end of epoch 11 on valid dataset......
+Validate completed, avg loss: 3.3498.
+
+EarlyStopping counter: 2 out of 20.
+
+[0;36mtime[0m:  9h 21min 41s 957ms, [0;36mremaining[0m: 29h 38min 41s 105ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  24.00%, [0;31mavg loss[0m: 0.9465
+[0;36mtime[0m:  9h 22min 59s 978ms, [0;36mremaining[0m: 29h 36min 56s 473ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  24.06%, [0;31mavg loss[0m: 1.5286
+[0;36mtime[0m:  9h 24min 18s 665ms, [0;36mremaining[0m: 29h 35min 14s  69ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  24.12%, [0;31mavg loss[0m: 1.5131
+[0;36mtime[0m:  9h 25min 37s 222ms, [0;36mremaining[0m: 29h 33min 31s 374ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  24.18%, [0;31mavg loss[0m: 1.5299
+[0;36mtime[0m:  9h 26min 54s 694ms, [0;36mremaining[0m: 29h 31min 45s 412ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  24.24%, [0;31mavg loss[0m: 1.5142
+[0;36mtime[0m:  9h 28min 18s 617ms, [0;36mremaining[0m: 29h 30min 19s 680ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  24.30%, [0;31mavg loss[0m: 1.5794
+[0;36mtime[0m:  9h 29min 33s 870ms, [0;36mremaining[0m: 29h 28min 27s  43ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  24.36%, [0;31mavg loss[0m: 1.5604
+[0;36mtime[0m:  9h 30min 48s 312ms, [0;36mremaining[0m: 29h 26min 32s  75ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  24.42%, [0;31mavg loss[0m: 1.5760
+[0;36mtime[0m:  9h 32min  3s 900ms, [0;36mremaining[0m: 29h 24min 40s 847ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  24.48%, [0;31mavg loss[0m: 1.5872
+[0;36mtime[0m:  9h 33min 28s 615ms, [0;36mremaining[0m: 29h 23min 17s 851ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  24.54%, [0;31mavg loss[0m: 1.6047
+[0;36mtime[0m:  9h 34min 57s 951ms, [0;36mremaining[0m: 29h 22min  9s  11ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  24.60%, [0;31mavg loss[0m: 1.5679
+[0;36mtime[0m:  9h 36min 26s 835ms, [0;36mremaining[0m: 29h 20min 58s 692ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  24.66%, [0;31mavg loss[0m: 1.6105
+[0;36mtime[0m:  9h 37min 55s 481ms, [0;36mremaining[0m: 29h 19min 47s 557ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  24.72%, [0;31mavg loss[0m: 1.6382
+[0;36mtime[0m:  9h 39min 24s 320ms, [0;36mremaining[0m: 29h 18min 36s 923ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  24.78%, [0;31mavg loss[0m: 1.6183
+[0;36mtime[0m:  9h 40min 42s 767ms, [0;36mremaining[0m: 29h 16min 54s 761ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  24.84%, [0;31mavg loss[0m: 1.6067
+[0;36mtime[0m:  9h 41min 58s 344ms, [0;36mremaining[0m: 29h 15min  4s  57ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  24.90%, [0;31mavg loss[0m: 1.5961
+[0;36mtime[0m:  9h 43min 16s  23ms, [0;36mremaining[0m: 29h 13min 19s 840ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  24.96%, [0;31mavg loss[0m: 1.6063
+[0;36mtime[0m:  9h 44min 31s  45ms, [0;36mremaining[0m: 29h 11min 27s 791ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  25.02%, [0;31mavg loss[0m: 1.6190
+[0;36mtime[0m:  9h 45min 45s 894ms, [0;36mremaining[0m: 29h  9min 35s 403ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  25.08%, [0;31mavg loss[0m: 1.6292
+[0;36mtime[0m:  9h 47min  0s 891ms, [0;36mremaining[0m: 29h  7min 43s 634ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  25.14%, [0;31mavg loss[0m: 1.6595
+[0;36mtime[0m:  9h 48min 15s 344ms, [0;36mremaining[0m: 29h  5min 50s 426ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  25.20%, [0;31mavg loss[0m: 1.6143
+[0;36mtime[0m:  9h 49min 29s 958ms, [0;36mremaining[0m: 29h  3min 57s 879ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  25.26%, [0;31mavg loss[0m: 1.6230
+[0;36mtime[0m:  9h 50min 44s 179ms, [0;36mremaining[0m: 29h  2min  4s 354ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  25.32%, [0;31mavg loss[0m: 1.6511
+[0;36mtime[0m:  9h 51min 59s 656ms, [0;36mremaining[0m: 29h  0min 14s 707ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  25.38%, [0;31mavg loss[0m: 1.6549
+[0;36mtime[0m:  9h 53min 14s 719ms, [0;36mremaining[0m: 28h 58min 24s   9ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  25.44%, [0;31mavg loss[0m: 1.6329
+[0;36mtime[0m:  9h 54min 30s 167ms, [0;36mremaining[0m: 28h 56min 34s 602ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  25.50%, [0;31mavg loss[0m: 1.6602
+
+Validating the model at epoch 12, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3897.
+
+EarlyStopping counter: 3 out of 20.
+
+[0;36mtime[0m:  9h 56min 22s 897ms, [0;36mremaining[0m: 28h 56min 33s 914ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  25.56%, [0;31mavg loss[0m: 1.6521
+[0;36mtime[0m:  9h 57min 37s 480ms, [0;36mremaining[0m: 28h 54min 41s 973ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  25.62%, [0;31mavg loss[0m: 1.6803
+[0;36mtime[0m:  9h 58min 51s 134ms, [0;36mremaining[0m: 28h 52min 47s 519ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  25.68%, [0;31mavg loss[0m: 1.6528
+[0;36mtime[0m: 10h  0min  4s 323ms, [0;36mremaining[0m: 28h 50min 51s 914ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  25.74%, [0;31mavg loss[0m: 1.6712
+[0;36mtime[0m: 10h  1min 18s 435ms, [0;36mremaining[0m: 28h 48min 59s 163ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  25.80%, [0;31mavg loss[0m: 1.7124
+[0;36mtime[0m: 10h  2min 32s 285ms, [0;36mremaining[0m: 28h 47min  5s 836ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  25.86%, [0;31mavg loss[0m: 1.6754
+[0;36mtime[0m: 10h  3min 46s 352ms, [0;36mremaining[0m: 28h 45min 13s 316ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  25.92%, [0;31mavg loss[0m: 1.6779
+[0;36mtime[0m: 10h  5min  0s 134ms, [0;36mremaining[0m: 28h 43min 20s 159ms, [0;33mepoch[0m: 13/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  25.98%, [0;31mavg loss[0m: 1.6736
+
+Validating the model at the end of epoch 12 on valid dataset......
+Validate completed, avg loss: 3.3854.
+
+EarlyStopping counter: 4 out of 20.
+
+[0;36mtime[0m: 10h  5min 56s 402ms, [0;36mremaining[0m: 28h 44min 34s 297ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  26.00%, [0;31mavg loss[0m: 1.5085
+[0;36mtime[0m: 10h  7min 10s 430ms, [0;36mremaining[0m: 28h 42min 41s 744ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  26.06%, [0;31mavg loss[0m: 1.4529
+[0;36mtime[0m: 10h  8min 24s 627ms, [0;36mremaining[0m: 28h 40min 49s 849ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  26.12%, [0;31mavg loss[0m: 1.4908
+[0;36mtime[0m: 10h  9min 36s 890ms, [0;36mremaining[0m: 28h 38min 52s 672ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  26.18%, [0;31mavg loss[0m: 1.4635
+[0;36mtime[0m: 10h 10min 50s  40ms, [0;36mremaining[0m: 28h 36min 58s 194ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  26.24%, [0;31mavg loss[0m: 1.4946
+[0;36mtime[0m: 10h 12min  3s 974ms, [0;36mremaining[0m: 28h 35min  6s 102ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  26.30%, [0;31mavg loss[0m: 1.4926
+[0;36mtime[0m: 10h 13min 16s 815ms, [0;36mremaining[0m: 28h 33min 11s 131ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  26.36%, [0;31mavg loss[0m: 1.4980
+[0;36mtime[0m: 10h 14min 30s 346ms, [0;36mremaining[0m: 28h 31min 18s 272ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  26.42%, [0;31mavg loss[0m: 1.5395
+[0;36mtime[0m: 10h 15min 43s 494ms, [0;36mremaining[0m: 28h 29min 24s 530ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  26.48%, [0;31mavg loss[0m: 1.4944
+[0;36mtime[0m: 10h 16min 57s 174ms, [0;36mremaining[0m: 28h 27min 32s 443ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  26.54%, [0;31mavg loss[0m: 1.5232
+[0;36mtime[0m: 10h 18min 11s 316ms, [0;36mremaining[0m: 28h 25min 41s 803ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  26.60%, [0;31mavg loss[0m: 1.5252
+[0;36mtime[0m: 10h 19min 24s 679ms, [0;36mremaining[0m: 28h 23min 49s 189ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  26.66%, [0;31mavg loss[0m: 1.5647
+[0;36mtime[0m: 10h 20min 38s 322ms, [0;36mremaining[0m: 28h 21min 57s 517ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  26.72%, [0;31mavg loss[0m: 1.5546
+[0;36mtime[0m: 10h 21min 51s 111ms, [0;36mremaining[0m: 28h 20min  3s 680ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  26.78%, [0;31mavg loss[0m: 1.5315
+[0;36mtime[0m: 10h 23min  5s 398ms, [0;36mremaining[0m: 28h 18min 14s 112ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  26.84%, [0;31mavg loss[0m: 1.5700
+[0;36mtime[0m: 10h 24min 19s 185ms, [0;36mremaining[0m: 28h 16min 23s 342ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  26.90%, [0;31mavg loss[0m: 1.5666
+[0;36mtime[0m: 10h 25min 32s 458ms, [0;36mremaining[0m: 28h 14min 31s 344ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  26.96%, [0;31mavg loss[0m: 1.5737
+[0;36mtime[0m: 10h 26min 45s 607ms, [0;36mremaining[0m: 28h 12min 39s 184ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  27.02%, [0;31mavg loss[0m: 1.5798
+[0;36mtime[0m: 10h 27min 59s 565ms, [0;36mremaining[0m: 28h 10min 49s 376ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  27.08%, [0;31mavg loss[0m: 1.5612
+[0;36mtime[0m: 10h 29min 13s 715ms, [0;36mremaining[0m: 28h  9min  0s 242ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  27.14%, [0;31mavg loss[0m: 1.6075
+[0;36mtime[0m: 10h 30min 27s 645ms, [0;36mremaining[0m: 28h  7min 10s 673ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  27.20%, [0;31mavg loss[0m: 1.5968
+[0;36mtime[0m: 10h 31min 42s 302ms, [0;36mremaining[0m: 28h  5min 23s 199ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  27.26%, [0;31mavg loss[0m: 1.5866
+[0;36mtime[0m: 10h 32min 55s 793ms, [0;36mremaining[0m: 28h  3min 32s 771ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  27.32%, [0;31mavg loss[0m: 1.5713
+[0;36mtime[0m: 10h 34min  9s 371ms, [0;36mremaining[0m: 28h  1min 42s 735ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  27.38%, [0;31mavg loss[0m: 1.5926
+[0;36mtime[0m: 10h 35min 22s 716ms, [0;36mremaining[0m: 27h 59min 52s 243ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  27.44%, [0;31mavg loss[0m: 1.6204
+[0;36mtime[0m: 10h 36min 37s 157ms, [0;36mremaining[0m: 27h 58min  4s 802ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  27.50%, [0;31mavg loss[0m: 1.6235
+
+Validating the model at epoch 13, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3866.
+
+EarlyStopping counter: 5 out of 20.
+
+[0;36mtime[0m: 10h 38min 28s 478ms, [0;36mremaining[0m: 27h 57min 54s 426ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  27.56%, [0;31mavg loss[0m: 1.6034
+[0;36mtime[0m: 10h 39min 42s 512ms, [0;36mremaining[0m: 27h 56min  5s 915ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  27.62%, [0;31mavg loss[0m: 1.6040
+[0;36mtime[0m: 10h 40min 56s 413ms, [0;36mremaining[0m: 27h 54min 17s 204ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  27.68%, [0;31mavg loss[0m: 1.6214
+[0;36mtime[0m: 10h 42min  9s 338ms, [0;36mremaining[0m: 27h 52min 26s 106ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  27.74%, [0;31mavg loss[0m: 1.5968
+[0;36mtime[0m: 10h 43min 22s 868ms, [0;36mremaining[0m: 27h 50min 36s 742ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  27.80%, [0;31mavg loss[0m: 1.6000
+[0;36mtime[0m: 10h 44min 36s 409ms, [0;36mremaining[0m: 27h 48min 47s 560ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  27.86%, [0;31mavg loss[0m: 1.6247
+[0;36mtime[0m: 10h 45min 50s 437ms, [0;36mremaining[0m: 27h 46min 59s 789ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  27.92%, [0;31mavg loss[0m: 1.6345
+[0;36mtime[0m: 10h 47min  3s 523ms, [0;36mremaining[0m: 27h 45min  9s 741ms, [0;33mepoch[0m: 14/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  27.98%, [0;31mavg loss[0m: 1.6367
+
+Validating the model at the end of epoch 13 on valid dataset......
+Validate completed, avg loss: 3.3410.
+
+EarlyStopping counter: 6 out of 20.
+
+[0;36mtime[0m: 10h 48min  0s 338ms, [0;36mremaining[0m: 27h 46min 16s 523ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  28.00%, [0;31mavg loss[0m: 1.1487
+[0;36mtime[0m: 10h 49min 14s 113ms, [0;36mremaining[0m: 27h 44min 28s 153ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  28.06%, [0;31mavg loss[0m: 1.4432
+[0;36mtime[0m: 10h 50min 27s 413ms, [0;36mremaining[0m: 27h 42min 38s 718ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  28.12%, [0;31mavg loss[0m: 1.4290
+[0;36mtime[0m: 10h 51min 40s 463ms, [0;36mremaining[0m: 27h 40min 48s 802ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  28.18%, [0;31mavg loss[0m: 1.4113
+[0;36mtime[0m: 10h 52min 54s 224ms, [0;36mremaining[0m: 27h 39min  0s 847ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  28.24%, [0;31mavg loss[0m: 1.4281
+[0;36mtime[0m: 10h 54min  9s 581ms, [0;36mremaining[0m: 27h 37min 17s  82ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  28.30%, [0;31mavg loss[0m: 1.4318
+[0;36mtime[0m: 10h 55min 25s  73ms, [0;36mremaining[0m: 27h 35min 33s 777ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  28.36%, [0;31mavg loss[0m: 1.4714
+[0;36mtime[0m: 10h 56min 39s 523ms, [0;36mremaining[0m: 27h 33min 47s 967ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  28.42%, [0;31mavg loss[0m: 1.4713
+[0;36mtime[0m: 10h 57min 53s 946ms, [0;36mremaining[0m: 27h 32min  2s 219ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  28.48%, [0;31mavg loss[0m: 1.4760
+[0;36mtime[0m: 10h 59min  9s  45ms, [0;36mremaining[0m: 27h 30min 18s 298ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  28.54%, [0;31mavg loss[0m: 1.4872
+[0;36mtime[0m: 11h  0min 23s 927ms, [0;36mremaining[0m: 27h 28min 33s 955ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  28.60%, [0;31mavg loss[0m: 1.5111
+[0;36mtime[0m: 11h  1min 39s 387ms, [0;36mremaining[0m: 27h 26min 51s 175ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  28.66%, [0;31mavg loss[0m: 1.5212
+[0;36mtime[0m: 11h  2min 54s 246ms, [0;36mremaining[0m: 27h 25min  7s  19ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  28.72%, [0;31mavg loss[0m: 1.4831
+[0;36mtime[0m: 11h  4min  9s 692ms, [0;36mremaining[0m: 27h 23min 24s 437ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  28.78%, [0;31mavg loss[0m: 1.5103
+[0;36mtime[0m: 11h  5min 24s 538ms, [0;36mremaining[0m: 27h 21min 40s 487ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  28.84%, [0;31mavg loss[0m: 1.5052
+[0;36mtime[0m: 11h  6min 39s 801ms, [0;36mremaining[0m: 27h 19min 57s 685ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  28.90%, [0;31mavg loss[0m: 1.5472
+[0;36mtime[0m: 11h  7min 55s 247ms, [0;36mremaining[0m: 27h 18min 15s 445ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  28.96%, [0;31mavg loss[0m: 1.5105
+[0;36mtime[0m: 11h  9min 10s 112ms, [0;36mremaining[0m: 27h 16min 31s 897ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  29.02%, [0;31mavg loss[0m: 1.5344
+[0;36mtime[0m: 11h 10min 24s 845ms, [0;36mremaining[0m: 27h 14min 48s 144ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  29.08%, [0;31mavg loss[0m: 1.5089
+[0;36mtime[0m: 11h 11min 39s 407ms, [0;36mremaining[0m: 27h 13min  4s  96ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  29.14%, [0;31mavg loss[0m: 1.5145
+[0;36mtime[0m: 11h 13min  3s 521ms, [0;36mremaining[0m: 27h 11min 43s 324ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  29.20%, [0;31mavg loss[0m: 1.5366
+[0;36mtime[0m: 11h 14min 31s 987ms, [0;36mremaining[0m: 27h 10min 33s  63ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  29.26%, [0;31mavg loss[0m: 1.5339
+[0;36mtime[0m: 11h 16min  1s 578ms, [0;36mremaining[0m: 27h  9min 25s 435ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  29.32%, [0;31mavg loss[0m: 1.5511
+[0;36mtime[0m: 11h 17min 29s 789ms, [0;36mremaining[0m: 27h  8min 14s 402ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  29.38%, [0;31mavg loss[0m: 1.5735
+[0;36mtime[0m: 11h 18min 58s 638ms, [0;36mremaining[0m: 27h  7min  4s 829ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  29.44%, [0;31mavg loss[0m: 1.5426
+[0;36mtime[0m: 11h 20min 25s 965ms, [0;36mremaining[0m: 27h  5min 51s 539ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  29.50%, [0;31mavg loss[0m: 1.5489
+
+Validating the model at epoch 14, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.4383.
+
+EarlyStopping counter: 7 out of 20.
+
+[0;36mtime[0m: 11h 22min 30s 687ms, [0;36mremaining[0m: 27h  6min  7s 288ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  29.56%, [0;31mavg loss[0m: 1.5189
+[0;36mtime[0m: 11h 23min 45s 783ms, [0;36mremaining[0m: 27h  4min 24s 571ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  29.62%, [0;31mavg loss[0m: 1.5569
+[0;36mtime[0m: 11h 25min  1s 243ms, [0;36mremaining[0m: 27h  2min 42s 827ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  29.68%, [0;31mavg loss[0m: 1.5834
+[0;36mtime[0m: 11h 26min 26s 760ms, [0;36mremaining[0m: 27h  1min 24s 945ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  29.74%, [0;31mavg loss[0m: 1.5964
+[0;36mtime[0m: 11h 27min 56s 327ms, [0;36mremaining[0m: 27h  0min 16s 571ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  29.80%, [0;31mavg loss[0m: 1.5854
+[0;36mtime[0m: 11h 29min 25s 735ms, [0;36mremaining[0m: 26h 59min  7s 739ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  29.86%, [0;31mavg loss[0m: 1.5687
+[0;36mtime[0m: 11h 30min 54s  61ms, [0;36mremaining[0m: 26h 57min 56s 290ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  29.92%, [0;31mavg loss[0m: 1.5801
+[0;36mtime[0m: 11h 32min 22s 821ms, [0;36mremaining[0m: 26h 56min 45s 787ms, [0;33mepoch[0m: 15/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  29.98%, [0;31mavg loss[0m: 1.5988
+
+Validating the model at the end of epoch 14 on valid dataset......
+Validate completed, avg loss: 3.3910.
+
+EarlyStopping counter: 8 out of 20.
+
+[0;36mtime[0m: 11h 33min 24s 207ms, [0;36mremaining[0m: 26h 57min 55s  95ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  30.00%, [0;31mavg loss[0m: 1.3240
+[0;36mtime[0m: 11h 34min 52s 581ms, [0;36mremaining[0m: 26h 56min 43s 349ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  30.06%, [0;31mavg loss[0m: 1.3751
+[0;36mtime[0m: 11h 36min 22s 521ms, [0;36mremaining[0m: 26h 55min 35s 169ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  30.12%, [0;31mavg loss[0m: 1.3959
+[0;36mtime[0m: 11h 37min 50s 925ms, [0;36mremaining[0m: 26h 54min 23s 352ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  30.18%, [0;31mavg loss[0m: 1.3784
+[0;36mtime[0m: 11h 39min 16s  35ms, [0;36mremaining[0m: 26h 53min  3s 867ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  30.24%, [0;31mavg loss[0m: 1.3919
+[0;36mtime[0m: 11h 40min 44s 708ms, [0;36mremaining[0m: 26h 51min 52s 557ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  30.30%, [0;31mavg loss[0m: 1.4172
+[0;36mtime[0m: 11h 42min 13s 630ms, [0;36mremaining[0m: 26h 50min 41s 750ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  30.36%, [0;31mavg loss[0m: 1.3957
+[0;36mtime[0m: 11h 43min 43s 308ms, [0;36mremaining[0m: 26h 49min 32s 601ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  30.42%, [0;31mavg loss[0m: 1.4341
+[0;36mtime[0m: 11h 45min 12s 860ms, [0;36mremaining[0m: 26h 48min 23s  82ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  30.48%, [0;31mavg loss[0m: 1.4109
+[0;36mtime[0m: 11h 46min 41s 708ms, [0;36mremaining[0m: 26h 47min 11s 883ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  30.54%, [0;31mavg loss[0m: 1.4466
+[0;36mtime[0m: 11h 48min 10s 791ms, [0;36mremaining[0m: 26h 46min  1s 150ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  30.60%, [0;31mavg loss[0m: 1.4516
+[0;36mtime[0m: 11h 49min 39s 734ms, [0;36mremaining[0m: 26h 44min 50s  26ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  30.66%, [0;31mavg loss[0m: 1.4872
+[0;36mtime[0m: 11h 51min  8s 524ms, [0;36mremaining[0m: 26h 43min 38s 488ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  30.72%, [0;31mavg loss[0m: 1.4660
+[0;36mtime[0m: 11h 52min 41s  50ms, [0;36mremaining[0m: 26h 42min 35s 283ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  30.78%, [0;31mavg loss[0m: 1.4491
+[0;36mtime[0m: 11h 54min 10s 681ms, [0;36mremaining[0m: 26h 41min 25s 474ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  30.84%, [0;31mavg loss[0m: 1.4916
+[0;36mtime[0m: 11h 55min 38s  26ms, [0;36mremaining[0m: 26h 40min 10s 476ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  30.90%, [0;31mavg loss[0m: 1.5404
+[0;36mtime[0m: 11h 56min 52s 528ms, [0;36mremaining[0m: 26h 38min 26s 792ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  30.96%, [0;31mavg loss[0m: 1.4549
+[0;36mtime[0m: 11h 58min  7s 516ms, [0;36mremaining[0m: 26h 36min 44s 302ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  31.02%, [0;31mavg loss[0m: 1.4892
+[0;36mtime[0m: 11h 59min 22s 623ms, [0;36mremaining[0m: 26h 35min  2s 182ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  31.08%, [0;31mavg loss[0m: 1.4787
+[0;36mtime[0m: 12h  0min 37s 795ms, [0;36mremaining[0m: 26h 33min 20s 311ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  31.14%, [0;31mavg loss[0m: 1.4940
+[0;36mtime[0m: 12h  1min 52s 475ms, [0;36mremaining[0m: 26h 31min 37s 458ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  31.20%, [0;31mavg loss[0m: 1.4971
+[0;36mtime[0m: 12h  3min  7s 315ms, [0;36mremaining[0m: 26h 29min 55s  65ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  31.26%, [0;31mavg loss[0m: 1.5299
+[0;36mtime[0m: 12h  4min 22s 695ms, [0;36mremaining[0m: 26h 28min 13s 960ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  31.32%, [0;31mavg loss[0m: 1.5178
+[0;36mtime[0m: 12h  5min 38s 255ms, [0;36mremaining[0m: 26h 26min 33s 350ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  31.38%, [0;31mavg loss[0m: 1.5138
+[0;36mtime[0m: 12h  6min 54s 344ms, [0;36mremaining[0m: 26h 24min 53s 987ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  31.44%, [0;31mavg loss[0m: 1.4702
+[0;36mtime[0m: 12h  8min  8s 416ms, [0;36mremaining[0m: 26h 23min 10s 329ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  31.50%, [0;31mavg loss[0m: 1.5220
+
+Validating the model at epoch 15, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.3981.
+
+EarlyStopping counter: 9 out of 20.
+
+[0;36mtime[0m: 12h 10min  0s 679ms, [0;36mremaining[0m: 26h 22min 49s 589ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  31.56%, [0;31mavg loss[0m: 1.5309
+[0;36mtime[0m: 12h 11min 16s 131ms, [0;36mremaining[0m: 26h 21min  8s 908ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  31.62%, [0;31mavg loss[0m: 1.5448
+[0;36mtime[0m: 12h 12min 30s 497ms, [0;36mremaining[0m: 26h 19min 25s 983ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  31.68%, [0;31mavg loss[0m: 1.5050
+[0;36mtime[0m: 12h 13min 45s 267ms, [0;36mremaining[0m: 26h 17min 44s  34ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  31.74%, [0;31mavg loss[0m: 1.5353
+[0;36mtime[0m: 12h 15min  0s 243ms, [0;36mremaining[0m: 26h 16min  2s 630ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  31.80%, [0;31mavg loss[0m: 1.4967
+[0;36mtime[0m: 12h 16min 17s 254ms, [0;36mremaining[0m: 26h 14min 25s 675ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  31.86%, [0;31mavg loss[0m: 1.5369
+[0;36mtime[0m: 12h 17min 36s 923ms, [0;36mremaining[0m: 26h 12min 54s 464ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  31.92%, [0;31mavg loss[0m: 1.5423
+[0;36mtime[0m: 12h 19min  5s 989ms, [0;36mremaining[0m: 26h 11min 43s 281ms, [0;33mepoch[0m: 16/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  31.98%, [0;31mavg loss[0m: 1.5258
+
+Validating the model at the end of epoch 15 on valid dataset......
+Validate completed, avg loss: 3.3872.
+
+EarlyStopping counter: 10 out of 20.
+
+[0;36mtime[0m: 12h 20min  7s 446ms, [0;36mremaining[0m: 26h 12min 44s 520ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  32.00%, [0;31mavg loss[0m: 1.1908
+[0;36mtime[0m: 12h 21min 24s 696ms, [0;36mremaining[0m: 26h 11min  7s 990ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  32.06%, [0;31mavg loss[0m: 1.3470
+[0;36mtime[0m: 12h 22min 39s 278ms, [0;36mremaining[0m: 26h  9min 25s 894ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  32.12%, [0;31mavg loss[0m: 1.3405
+[0;36mtime[0m: 12h 23min 54s  43ms, [0;36mremaining[0m: 26h  7min 44s 288ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  32.18%, [0;31mavg loss[0m: 1.3256
+[0;36mtime[0m: 12h 25min  9s 999ms, [0;36mremaining[0m: 26h  6min  5s 283ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  32.24%, [0;31mavg loss[0m: 1.3559
+[0;36mtime[0m: 12h 26min 25s 655ms, [0;36mremaining[0m: 26h  4min 25s 738ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  32.30%, [0;31mavg loss[0m: 1.3684
+[0;36mtime[0m: 12h 27min 40s 359ms, [0;36mremaining[0m: 26h  2min 44s 290ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  32.36%, [0;31mavg loss[0m: 1.3877
+[0;36mtime[0m: 12h 28min 55s 623ms, [0;36mremaining[0m: 26h  1min  4s 108ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  32.42%, [0;31mavg loss[0m: 1.3879
+[0;36mtime[0m: 12h 30min 10s 468ms, [0;36mremaining[0m: 25h 59min 23s 148ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  32.48%, [0;31mavg loss[0m: 1.4094
+[0;36mtime[0m: 12h 31min 25s 571ms, [0;36mremaining[0m: 25h 57min 42s 818ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  32.54%, [0;31mavg loss[0m: 1.3923
+[0;36mtime[0m: 12h 32min 41s  92ms, [0;36mremaining[0m: 25h 56min  3s 447ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  32.60%, [0;31mavg loss[0m: 1.4271
+[0;36mtime[0m: 12h 33min 55s 980ms, [0;36mremaining[0m: 25h 54min 22s 859ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  32.66%, [0;31mavg loss[0m: 1.4221
+[0;36mtime[0m: 12h 35min 13s 368ms, [0;36mremaining[0m: 25h 52min 47s 503ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  32.72%, [0;31mavg loss[0m: 1.4153
+[0;36mtime[0m: 12h 36min 41s 409ms, [0;36mremaining[0m: 25h 51min 34s  59ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  32.78%, [0;31mavg loss[0m: 1.3999
+[0;36mtime[0m: 12h 38min 10s 428ms, [0;36mremaining[0m: 25h 50min 22s 562ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  32.84%, [0;31mavg loss[0m: 1.4328
+[0;36mtime[0m: 12h 39min 39s 792ms, [0;36mremaining[0m: 25h 49min 11s 703ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  32.90%, [0;31mavg loss[0m: 1.4160
+[0;36mtime[0m: 12h 41min  8s 588ms, [0;36mremaining[0m: 25h 47min 59s 621ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  32.96%, [0;31mavg loss[0m: 1.4507
+[0;36mtime[0m: 12h 42min 38s 511ms, [0;36mremaining[0m: 25h 46min 49s 764ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  33.02%, [0;31mavg loss[0m: 1.4554
+[0;36mtime[0m: 12h 43min 56s 109ms, [0;36mremaining[0m: 25h 45min 14s 905ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  33.08%, [0;31mavg loss[0m: 1.4328
+[0;36mtime[0m: 12h 45min 10s 969ms, [0;36mremaining[0m: 25h 43min 34s 585ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  33.14%, [0;31mavg loss[0m: 1.4549
+[0;36mtime[0m: 12h 46min 25s 498ms, [0;36mremaining[0m: 25h 41min 53s 689ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  33.20%, [0;31mavg loss[0m: 1.4512
+[0;36mtime[0m: 12h 47min 40s 667ms, [0;36mremaining[0m: 25h 40min 14s 175ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  33.26%, [0;31mavg loss[0m: 1.4445
+[0;36mtime[0m: 12h 48min 56s 661ms, [0;36mremaining[0m: 25h 38min 36s 398ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  33.32%, [0;31mavg loss[0m: 1.4599
+[0;36mtime[0m: 12h 50min 11s 583ms, [0;36mremaining[0m: 25h 36min 56s 562ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  33.38%, [0;31mavg loss[0m: 1.4573
+[0;36mtime[0m: 12h 51min 26s 612ms, [0;36mremaining[0m: 25h 35min 17s  27ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  33.44%, [0;31mavg loss[0m: 1.4771
+[0;36mtime[0m: 12h 52min 41s 991ms, [0;36mremaining[0m: 25h 33min 38s 277ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  33.50%, [0;31mavg loss[0m: 1.4722
+
+Validating the model at epoch 16, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.4121.
+
+EarlyStopping counter: 11 out of 20.
+
+[0;36mtime[0m: 12h 54min 35s  40ms, [0;36mremaining[0m: 25h 33min 14s 173ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  33.56%, [0;31mavg loss[0m: 1.4842
+[0;36mtime[0m: 12h 55min 48s 807ms, [0;36mremaining[0m: 25h 31min 32s 204ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  33.62%, [0;31mavg loss[0m: 1.4740
+[0;36mtime[0m: 12h 57min  4s 371ms, [0;36mremaining[0m: 25h 29min 53s 877ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  33.68%, [0;31mavg loss[0m: 1.4890
+[0;36mtime[0m: 12h 58min 19s  35ms, [0;36mremaining[0m: 25h 28min 13s 862ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  33.74%, [0;31mavg loss[0m: 1.4724
+[0;36mtime[0m: 12h 59min 33s 728ms, [0;36mremaining[0m: 25h 26min 33s 993ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  33.80%, [0;31mavg loss[0m: 1.4957
+[0;36mtime[0m: 13h  0min 49s 190ms, [0;36mremaining[0m: 25h 24min 55s 717ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  33.86%, [0;31mavg loss[0m: 1.5101
+[0;36mtime[0m: 13h  2min  4s  43ms, [0;36mremaining[0m: 25h 23min 16s 333ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  33.92%, [0;31mavg loss[0m: 1.5272
+[0;36mtime[0m: 13h  3min 19s 153ms, [0;36mremaining[0m: 25h 21min 37s 538ms, [0;33mepoch[0m: 17/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  33.98%, [0;31mavg loss[0m: 1.5127
+
+Validating the model at the end of epoch 16 on valid dataset......
+Validate completed, avg loss: 3.4115.
+
+EarlyStopping counter: 12 out of 20.
+
+[0;36mtime[0m: 13h  4min 16s 750ms, [0;36mremaining[0m: 25h 22min 24s 233ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  34.00%, [0;31mavg loss[0m: 1.1570
+[0;36mtime[0m: 13h  5min 32s 852ms, [0;36mremaining[0m: 25h 20min 47s 268ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  34.06%, [0;31mavg loss[0m: 1.3126
+[0;36mtime[0m: 13h  6min 48s 455ms, [0;36mremaining[0m: 25h 19min  9s 413ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  34.12%, [0;31mavg loss[0m: 1.3048
+[0;36mtime[0m: 13h  8min  3s 160ms, [0;36mremaining[0m: 25h 17min 29s 906ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  34.18%, [0;31mavg loss[0m: 1.2953
+[0;36mtime[0m: 13h  9min 18s 305ms, [0;36mremaining[0m: 25h 15min 51s 334ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  34.24%, [0;31mavg loss[0m: 1.3292
+[0;36mtime[0m: 13h 10min 33s 710ms, [0;36mremaining[0m: 25h 14min 13s 340ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  34.30%, [0;31mavg loss[0m: 1.3687
+[0;36mtime[0m: 13h 11min 48s 540ms, [0;36mremaining[0m: 25h 12min 34s 326ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  34.36%, [0;31mavg loss[0m: 1.3382
+[0;36mtime[0m: 13h 13min  3s 995ms, [0;36mremaining[0m: 25h 10min 56s 589ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  34.42%, [0;31mavg loss[0m: 1.3597
+[0;36mtime[0m: 13h 14min 19s 610ms, [0;36mremaining[0m: 25h  9min 19s 233ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  34.48%, [0;31mavg loss[0m: 1.3800
+[0;36mtime[0m: 13h 15min 34s 702ms, [0;36mremaining[0m: 25h  7min 40s 961ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  34.54%, [0;31mavg loss[0m: 1.3572
+[0;36mtime[0m: 13h 16min 50s 527ms, [0;36mremaining[0m: 25h  6min  4s 155ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  34.60%, [0;31mavg loss[0m: 1.3668
+[0;36mtime[0m: 13h 18min  5s 861ms, [0;36mremaining[0m: 25h  4min 26s 497ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  34.66%, [0;31mavg loss[0m: 1.3512
+[0;36mtime[0m: 13h 19min 21s 360ms, [0;36mremaining[0m: 25h  2min 49s 226ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  34.72%, [0;31mavg loss[0m: 1.3950
+[0;36mtime[0m: 13h 20min 36s 866ms, [0;36mremaining[0m: 25h  1min 12s  43ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  34.78%, [0;31mavg loss[0m: 1.3762
+[0;36mtime[0m: 13h 21min 51s 509ms, [0;36mremaining[0m: 24h 59min 33s 322ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  34.84%, [0;31mavg loss[0m: 1.4237
+[0;36mtime[0m: 13h 23min  6s 938ms, [0;36mremaining[0m: 24h 57min 56s 148ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  34.90%, [0;31mavg loss[0m: 1.3647
+[0;36mtime[0m: 13h 24min 21s 649ms, [0;36mremaining[0m: 24h 56min 17s 716ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  34.96%, [0;31mavg loss[0m: 1.4013
+[0;36mtime[0m: 13h 25min 34s 806ms, [0;36mremaining[0m: 24h 54min 36s 481ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  35.02%, [0;31mavg loss[0m: 1.3946
+[0;36mtime[0m: 13h 26min 47s 912ms, [0;36mremaining[0m: 24h 52min 55s 247ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  35.08%, [0;31mavg loss[0m: 1.4375
+[0;36mtime[0m: 13h 28min  1s 167ms, [0;36mremaining[0m: 24h 51min 14s 386ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  35.14%, [0;31mavg loss[0m: 1.4290
+[0;36mtime[0m: 13h 29min 15s 724ms, [0;36mremaining[0m: 24h 49min 36s  15ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  35.20%, [0;31mavg loss[0m: 1.4281
+[0;36mtime[0m: 13h 30min 28s 831ms, [0;36mremaining[0m: 24h 47min 55s  62ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  35.26%, [0;31mavg loss[0m: 1.4365
+[0;36mtime[0m: 13h 31min 42s 796ms, [0;36mremaining[0m: 24h 46min 15s 776ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  35.32%, [0;31mavg loss[0m: 1.4280
+[0;36mtime[0m: 13h 32min 56s 258ms, [0;36mremaining[0m: 24h 44min 35s 657ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  35.38%, [0;31mavg loss[0m: 1.4587
+[0;36mtime[0m: 13h 34min  9s 650ms, [0;36mremaining[0m: 24h 42min 55s 501ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  35.44%, [0;31mavg loss[0m: 1.4441
+[0;36mtime[0m: 13h 35min 23s 753ms, [0;36mremaining[0m: 24h 41min 16s 728ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  35.50%, [0;31mavg loss[0m: 1.4235
+
+Validating the model at epoch 17, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.4506.
+
+EarlyStopping counter: 13 out of 20.
+
+[0;36mtime[0m: 13h 37min 15s 628ms, [0;36mremaining[0m: 24h 40min 46s 476ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  35.56%, [0;31mavg loss[0m: 1.4266
+[0;36mtime[0m: 13h 38min 30s  37ms, [0;36mremaining[0m: 24h 39min  8s 243ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  35.62%, [0;31mavg loss[0m: 1.4190
+[0;36mtime[0m: 13h 39min 43s 401ms, [0;36mremaining[0m: 24h 37min 28s 206ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  35.68%, [0;31mavg loss[0m: 1.4523
+[0;36mtime[0m: 13h 40min 56s 887ms, [0;36mremaining[0m: 24h 35min 48s 479ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  35.74%, [0;31mavg loss[0m: 1.4779
+[0;36mtime[0m: 13h 42min 10s  68ms, [0;36mremaining[0m: 24h 34min  8s 293ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  35.80%, [0;31mavg loss[0m: 1.4478
+[0;36mtime[0m: 13h 43min 24s 623ms, [0;36mremaining[0m: 24h 32min 30s 654ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  35.86%, [0;31mavg loss[0m: 1.4558
+[0;36mtime[0m: 13h 44min 38s 431ms, [0;36mremaining[0m: 24h 30min 51s 760ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  35.92%, [0;31mavg loss[0m: 1.4748
+[0;36mtime[0m: 13h 45min 51s 499ms, [0;36mremaining[0m: 24h 29min 11s 634ms, [0;33mepoch[0m: 18/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  35.98%, [0;31mavg loss[0m: 1.4732
+
+Validating the model at the end of epoch 17 on valid dataset......
+Validate completed, avg loss: 3.4152.
+
+EarlyStopping counter: 14 out of 20.
+
+[0;36mtime[0m: 13h 46min 47s 996ms, [0;36mremaining[0m: 24h 29min 50s 843ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  36.00%, [0;31mavg loss[0m: 1.2658
+[0;36mtime[0m: 13h 48min  1s 472ms, [0;36mremaining[0m: 24h 28min 11s 383ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  36.06%, [0;31mavg loss[0m: 1.2667
+[0;36mtime[0m: 13h 49min 15s 721ms, [0;36mremaining[0m: 24h 26min 33s 375ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  36.12%, [0;31mavg loss[0m: 1.2856
+[0;36mtime[0m: 13h 50min 29s 233ms, [0;36mremaining[0m: 24h 24min 54s 148ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  36.18%, [0;31mavg loss[0m: 1.2891
+[0;36mtime[0m: 13h 51min 43s 185ms, [0;36mremaining[0m: 24h 23min 15s 779ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  36.24%, [0;31mavg loss[0m: 1.3016
+[0;36mtime[0m: 13h 52min 57s 200ms, [0;36mremaining[0m: 24h 21min 37s 602ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  36.30%, [0;31mavg loss[0m: 1.3055
+[0;36mtime[0m: 13h 54min 10s 119ms, [0;36mremaining[0m: 24h 19min 57s 587ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  36.36%, [0;31mavg loss[0m: 1.3056
+[0;36mtime[0m: 13h 55min 23s 286ms, [0;36mremaining[0m: 24h 18min 18s  95ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  36.42%, [0;31mavg loss[0m: 1.3164
+[0;36mtime[0m: 13h 56min 39s 787ms, [0;36mremaining[0m: 24h 16min 44s 494ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  36.48%, [0;31mavg loss[0m: 1.3254
+[0;36mtime[0m: 13h 57min 53s 696ms, [0;36mremaining[0m: 24h 15min  6s 447ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  36.54%, [0;31mavg loss[0m: 1.3236
+[0;36mtime[0m: 13h 59min  7s 339ms, [0;36mremaining[0m: 24h 13min 28s  19ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  36.60%, [0;31mavg loss[0m: 1.3304
+[0;36mtime[0m: 14h  0min 20s 960ms, [0;36mremaining[0m: 24h 11min 49s 635ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  36.66%, [0;31mavg loss[0m: 1.3361
+[0;36mtime[0m: 14h  1min 34s 836ms, [0;36mremaining[0m: 24h 10min 11s 771ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  36.72%, [0;31mavg loss[0m: 1.3697
+[0;36mtime[0m: 14h  2min 48s 937ms, [0;36mremaining[0m: 24h  8min 34s 373ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  36.78%, [0;31mavg loss[0m: 1.3485
+[0;36mtime[0m: 14h  4min  2s 213ms, [0;36mremaining[0m: 24h  6min 55s 636ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  36.84%, [0;31mavg loss[0m: 1.3497
+[0;36mtime[0m: 14h  5min 15s 629ms, [0;36mremaining[0m: 24h  5min 17s 222ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  36.90%, [0;31mavg loss[0m: 1.3764
+[0;36mtime[0m: 14h  6min 29s 464ms, [0;36mremaining[0m: 24h  3min 39s 602ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  36.96%, [0;31mavg loss[0m: 1.3901
+[0;36mtime[0m: 14h  7min 43s 530ms, [0;36mremaining[0m: 24h  2min  2s 454ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  37.02%, [0;31mavg loss[0m: 1.3845
+[0;36mtime[0m: 14h  8min 56s 807ms, [0;36mremaining[0m: 24h  0min 24s  41ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  37.08%, [0;31mavg loss[0m: 1.3751
+[0;36mtime[0m: 14h 10min 10s  30ms, [0;36mremaining[0m: 23h 58min 45s 619ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  37.14%, [0;31mavg loss[0m: 1.3800
+[0;36mtime[0m: 14h 11min 23s 535ms, [0;36mremaining[0m: 23h 57min  7s 754ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  37.20%, [0;31mavg loss[0m: 1.3983
+[0;36mtime[0m: 14h 12min 36s 813ms, [0;36mremaining[0m: 23h 55min 29s 585ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  37.26%, [0;31mavg loss[0m: 1.4013
+[0;36mtime[0m: 14h 13min 50s 130ms, [0;36mremaining[0m: 23h 53min 51s 562ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  37.32%, [0;31mavg loss[0m: 1.3827
+[0;36mtime[0m: 14h 15min  4s  48ms, [0;36mremaining[0m: 23h 52min 14s 627ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  37.38%, [0;31mavg loss[0m: 1.3987
+[0;36mtime[0m: 14h 16min 17s 900ms, [0;36mremaining[0m: 23h 50min 37s 654ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  37.44%, [0;31mavg loss[0m: 1.4026
+[0;36mtime[0m: 14h 17min 31s 173ms, [0;36mremaining[0m: 23h 48min 59s 789ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  37.50%, [0;31mavg loss[0m: 1.3953
+
+Validating the model at epoch 18, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.4918.
+
+EarlyStopping counter: 15 out of 20.
+
+[0;36mtime[0m: 14h 19min 21s 968ms, [0;36mremaining[0m: 23h 48min 24s 372ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  37.56%, [0;31mavg loss[0m: 1.3987
+[0;36mtime[0m: 14h 20min 35s 647ms, [0;36mremaining[0m: 23h 46min 47s 178ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  37.62%, [0;31mavg loss[0m: 1.3965
+[0;36mtime[0m: 14h 21min 49s 519ms, [0;36mremaining[0m: 23h 45min 10s 380ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  37.68%, [0;31mavg loss[0m: 1.4098
+[0;36mtime[0m: 14h 23min  4s 139ms, [0;36mremaining[0m: 23h 43min 34s 887ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  37.74%, [0;31mavg loss[0m: 1.4073
+[0;36mtime[0m: 14h 24min 17s 490ms, [0;36mremaining[0m: 23h 41min 57s 373ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  37.80%, [0;31mavg loss[0m: 1.4208
+[0;36mtime[0m: 14h 25min 31s 274ms, [0;36mremaining[0m: 23h 40min 20s 648ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  37.86%, [0;31mavg loss[0m: 1.4273
+[0;36mtime[0m: 14h 26min 45s 834ms, [0;36mremaining[0m: 23h 38min 45s 264ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  37.92%, [0;31mavg loss[0m: 1.4242
+[0;36mtime[0m: 14h 27min 59s 801ms, [0;36mremaining[0m: 23h 37min  8s 978ms, [0;33mepoch[0m: 19/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  37.98%, [0;31mavg loss[0m: 1.4199
+
+Validating the model at the end of epoch 18 on valid dataset......
+Validate completed, avg loss: 3.3967.
+
+EarlyStopping counter: 16 out of 20.
+
+[0;36mtime[0m: 14h 28min 57s 128ms, [0;36mremaining[0m: 23h 37min 44s 755ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  38.00%, [0;31mavg loss[0m: 1.1516
+[0;36mtime[0m: 14h 30min 10s 729ms, [0;36mremaining[0m: 23h 36min  7s 807ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  38.06%, [0;31mavg loss[0m: 1.2408
+[0;36mtime[0m: 14h 31min 24s 329ms, [0;36mremaining[0m: 23h 34min 30s 931ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  38.12%, [0;31mavg loss[0m: 1.2464
+[0;36mtime[0m: 14h 32min 38s 227ms, [0;36mremaining[0m: 23h 32min 54s 610ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  38.18%, [0;31mavg loss[0m: 1.2452
+[0;36mtime[0m: 14h 33min 51s  44ms, [0;36mremaining[0m: 23h 31min 16s 614ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  38.24%, [0;31mavg loss[0m: 1.2619
+[0;36mtime[0m: 14h 35min  5s 222ms, [0;36mremaining[0m: 23h 29min 40s 889ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  38.30%, [0;31mavg loss[0m: 1.2842
+[0;36mtime[0m: 14h 36min 19s 218ms, [0;36mremaining[0m: 23h 28min  4s 940ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  38.36%, [0;31mavg loss[0m: 1.2782
+[0;36mtime[0m: 14h 37min 32s 247ms, [0;36mremaining[0m: 23h 26min 27s 509ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  38.42%, [0;31mavg loss[0m: 1.2939
+[0;36mtime[0m: 14h 38min 45s 495ms, [0;36mremaining[0m: 23h 24min 50s 505ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  38.48%, [0;31mavg loss[0m: 1.2999
+[0;36mtime[0m: 14h 39min 59s 623ms, [0;36mremaining[0m: 23h 23min 14s 979ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  38.54%, [0;31mavg loss[0m: 1.3174
+[0;36mtime[0m: 14h 41min 13s 637ms, [0;36mremaining[0m: 23h 21min 39s 337ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  38.60%, [0;31mavg loss[0m: 1.2705
+[0;36mtime[0m: 14h 42min 27s 508ms, [0;36mremaining[0m: 23h 20min  3s 536ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  38.66%, [0;31mavg loss[0m: 1.3220
+[0;36mtime[0m: 14h 43min 41s 491ms, [0;36mremaining[0m: 23h 18min 27s 981ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  38.72%, [0;31mavg loss[0m: 1.3333
+[0;36mtime[0m: 14h 44min 55s 614ms, [0;36mremaining[0m: 23h 16min 52s 713ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  38.78%, [0;31mavg loss[0m: 1.3226
+[0;36mtime[0m: 14h 46min  9s 826ms, [0;36mremaining[0m: 23h 15min 17s 651ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  38.84%, [0;31mavg loss[0m: 1.3436
+[0;36mtime[0m: 14h 47min 24s 128ms, [0;36mremaining[0m: 23h 13min 42s 795ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  38.90%, [0;31mavg loss[0m: 1.3275
+[0;36mtime[0m: 14h 48min 36s 976ms, [0;36mremaining[0m: 23h 12min  5s 724ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  38.96%, [0;31mavg loss[0m: 1.3427
+[0;36mtime[0m: 14h 49min 50s 926ms, [0;36mremaining[0m: 23h 10min 30s 448ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  39.02%, [0;31mavg loss[0m: 1.3384
+[0;36mtime[0m: 14h 51min  4s 543ms, [0;36mremaining[0m: 23h  8min 54s 721ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  39.08%, [0;31mavg loss[0m: 1.3795
+[0;36mtime[0m: 14h 52min 16s 762ms, [0;36mremaining[0m: 23h  7min 16s 888ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  39.14%, [0;31mavg loss[0m: 1.3458
+[0;36mtime[0m: 14h 53min 30s 425ms, [0;36mremaining[0m: 23h  5min 41s 374ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  39.20%, [0;31mavg loss[0m: 1.3570
+[0;36mtime[0m: 14h 54min 44s 263ms, [0;36mremaining[0m: 23h  4min  6s 196ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  39.26%, [0;31mavg loss[0m: 1.3617
+[0;36mtime[0m: 14h 55min 57s 768ms, [0;36mremaining[0m: 23h  2min 30s 570ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  39.32%, [0;31mavg loss[0m: 1.3597
+[0;36mtime[0m: 14h 57min 11s 241ms, [0;36mremaining[0m: 23h  0min 54s 961ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  39.38%, [0;31mavg loss[0m: 1.3762
+[0;36mtime[0m: 14h 58min 24s 817ms, [0;36mremaining[0m: 22h 59min 19s 579ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  39.44%, [0;31mavg loss[0m: 1.3881
+[0;36mtime[0m: 14h 59min 39s 541ms, [0;36mremaining[0m: 22h 57min 46s  22ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  39.50%, [0;31mavg loss[0m: 1.3956
+
+Validating the model at epoch 19, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.4924.
+
+EarlyStopping counter: 17 out of 20.
+
+[0;36mtime[0m: 15h  1min 31s 295ms, [0;36mremaining[0m: 22h 57min  9s  87ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  39.56%, [0;31mavg loss[0m: 1.3655
+[0;36mtime[0m: 15h  2min 44s 976ms, [0;36mremaining[0m: 22h 55min 33s 913ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  39.62%, [0;31mavg loss[0m: 1.3833
+[0;36mtime[0m: 15h  3min 59s 353ms, [0;36mremaining[0m: 22h 53min 59s 860ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  39.68%, [0;31mavg loss[0m: 1.3818
+[0;36mtime[0m: 15h  5min 17s 932ms, [0;36mremaining[0m: 22h 52min 32s 239ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  39.74%, [0;31mavg loss[0m: 1.3779
+[0;36mtime[0m: 15h  6min 36s 778ms, [0;36mremaining[0m: 22h 51min  5s  47ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  39.80%, [0;31mavg loss[0m: 1.4103
+[0;36mtime[0m: 15h  7min 54s 990ms, [0;36mremaining[0m: 22h 49min 36s 926ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  39.86%, [0;31mavg loss[0m: 1.3787
+[0;36mtime[0m: 15h  9min 18s 825ms, [0;36mremaining[0m: 22h 48min 17s 296ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  39.92%, [0;31mavg loss[0m: 1.3719
+[0;36mtime[0m: 15h 10min 48s 822ms, [0;36mremaining[0m: 22h 47min  6s 901ms, [0;33mepoch[0m: 20/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  39.98%, [0;31mavg loss[0m: 1.4005
+
+Validating the model at the end of epoch 19 on valid dataset......
+Validate completed, avg loss: 3.4406.
+
+EarlyStopping counter: 18 out of 20.
+
+[0;36mtime[0m: 15h 11min 51s 737ms, [0;36mremaining[0m: 22h 47min 46s 578ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m:    0/6653, [0;32mpercent complete[0m:  40.00%, [0;31mavg loss[0m: 1.2761
+[0;36mtime[0m: 15h 13min 22s  33ms, [0;36mremaining[0m: 22h 46min 36s 411ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m:  200/6653, [0;32mpercent complete[0m:  40.06%, [0;31mavg loss[0m: 1.2095
+[0;36mtime[0m: 15h 14min 52s 175ms, [0;36mremaining[0m: 22h 45min 25s 952ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m:  400/6653, [0;32mpercent complete[0m:  40.12%, [0;31mavg loss[0m: 1.2076
+[0;36mtime[0m: 15h 16min 21s 723ms, [0;36mremaining[0m: 22h 44min 14s 552ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m:  600/6653, [0;32mpercent complete[0m:  40.18%, [0;31mavg loss[0m: 1.2210
+[0;36mtime[0m: 15h 17min 52s 368ms, [0;36mremaining[0m: 22h 43min  4s 726ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m:  800/6653, [0;32mpercent complete[0m:  40.24%, [0;31mavg loss[0m: 1.2563
+[0;36mtime[0m: 15h 19min 22s 211ms, [0;36mremaining[0m: 22h 41min 53s 650ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 1000/6653, [0;32mpercent complete[0m:  40.30%, [0;31mavg loss[0m: 1.2148
+[0;36mtime[0m: 15h 20min 51s 753ms, [0;36mremaining[0m: 22h 40min 42s  72ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 1200/6653, [0;32mpercent complete[0m:  40.36%, [0;31mavg loss[0m: 1.2129
+[0;36mtime[0m: 15h 22min 20s 733ms, [0;36mremaining[0m: 22h 39min 29s 613ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 1400/6653, [0;32mpercent complete[0m:  40.42%, [0;31mavg loss[0m: 1.2437
+[0;36mtime[0m: 15h 23min 51s 526ms, [0;36mremaining[0m: 22h 38min 19s 771ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 1600/6653, [0;32mpercent complete[0m:  40.48%, [0;31mavg loss[0m: 1.2857
+[0;36mtime[0m: 15h 25min 21s 160ms, [0;36mremaining[0m: 22h 37min  8s 167ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 1800/6653, [0;32mpercent complete[0m:  40.54%, [0;31mavg loss[0m: 1.2894
+[0;36mtime[0m: 15h 26min 52s  97ms, [0;36mremaining[0m: 22h 35min 58s 416ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 2000/6653, [0;32mpercent complete[0m:  40.60%, [0;31mavg loss[0m: 1.2774
+[0;36mtime[0m: 15h 28min 19s 467ms, [0;36mremaining[0m: 22h 34min 43s 396ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 2200/6653, [0;32mpercent complete[0m:  40.66%, [0;31mavg loss[0m: 1.2772
+[0;36mtime[0m: 15h 29min 34s 586ms, [0;36mremaining[0m: 22h 33min 10s 507ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 2400/6653, [0;32mpercent complete[0m:  40.72%, [0;31mavg loss[0m: 1.3026
+[0;36mtime[0m: 15h 31min  0s 187ms, [0;36mremaining[0m: 22h 31min 52s 890ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 2600/6653, [0;32mpercent complete[0m:  40.78%, [0;31mavg loss[0m: 1.2711
+[0;36mtime[0m: 15h 32min 27s 221ms, [0;36mremaining[0m: 22h 30min 37s 326ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 2800/6653, [0;32mpercent complete[0m:  40.84%, [0;31mavg loss[0m: 1.3293
+[0;36mtime[0m: 15h 33min 42s  28ms, [0;36mremaining[0m: 22h 29min  4s  61ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 3000/6653, [0;32mpercent complete[0m:  40.90%, [0;31mavg loss[0m: 1.3029
+[0;36mtime[0m: 15h 34min 57s 456ms, [0;36mremaining[0m: 22h 27min 31s 747ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 3200/6653, [0;32mpercent complete[0m:  40.96%, [0;31mavg loss[0m: 1.3322
+[0;36mtime[0m: 15h 36min 12s 196ms, [0;36mremaining[0m: 22h 25min 58s 492ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 3400/6653, [0;32mpercent complete[0m:  41.02%, [0;31mavg loss[0m: 1.3151
+[0;36mtime[0m: 15h 37min 27s 194ms, [0;36mremaining[0m: 22h 24min 25s 661ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 3600/6653, [0;32mpercent complete[0m:  41.08%, [0;31mavg loss[0m: 1.3163
+[0;36mtime[0m: 15h 38min 42s 462ms, [0;36mremaining[0m: 22h 22min 53s 269ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 3800/6653, [0;32mpercent complete[0m:  41.14%, [0;31mavg loss[0m: 1.3116
+[0;36mtime[0m: 15h 39min 58s 280ms, [0;36mremaining[0m: 22h 21min 21s 710ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 4000/6653, [0;32mpercent complete[0m:  41.20%, [0;31mavg loss[0m: 1.3395
+[0;36mtime[0m: 15h 41min 13s 261ms, [0;36mremaining[0m: 22h 19min 49s   8ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 4200/6653, [0;32mpercent complete[0m:  41.26%, [0;31mavg loss[0m: 1.3339
+[0;36mtime[0m: 15h 42min 27s 880ms, [0;36mremaining[0m: 22h 18min 15s 842ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 4400/6653, [0;32mpercent complete[0m:  41.32%, [0;31mavg loss[0m: 1.3510
+[0;36mtime[0m: 15h 43min 43s 222ms, [0;36mremaining[0m: 22h 16min 43s 755ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 4600/6653, [0;32mpercent complete[0m:  41.38%, [0;31mavg loss[0m: 1.3262
+[0;36mtime[0m: 15h 44min 58s 839ms, [0;36mremaining[0m: 22h 15min 12s 104ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 4800/6653, [0;32mpercent complete[0m:  41.44%, [0;31mavg loss[0m: 1.3445
+[0;36mtime[0m: 15h 46min 14s  72ms, [0;36mremaining[0m: 22h 13min 39s 960ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 5000/6653, [0;32mpercent complete[0m:  41.50%, [0;31mavg loss[0m: 1.3090
+
+Validating the model at epoch 20, batch 5000 on valid dataset......
+Validate completed, avg loss: 3.4830.
+
+EarlyStopping counter: 19 out of 20.
+
+[0;36mtime[0m: 15h 48min  6s 272ms, [0;36mremaining[0m: 22h 12min 59s 837ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 5200/6653, [0;32mpercent complete[0m:  41.56%, [0;31mavg loss[0m: 1.3372
+[0;36mtime[0m: 15h 49min 21s 260ms, [0;36mremaining[0m: 22h 11min 27s 318ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 5400/6653, [0;32mpercent complete[0m:  41.62%, [0;31mavg loss[0m: 1.3652
+[0;36mtime[0m: 15h 50min 36s  66ms, [0;36mremaining[0m: 22h  9min 54s 594ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 5600/6653, [0;32mpercent complete[0m:  41.68%, [0;31mavg loss[0m: 1.3501
+[0;36mtime[0m: 15h 51min 51s 756ms, [0;36mremaining[0m: 22h  8min 23s 155ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 5800/6653, [0;32mpercent complete[0m:  41.74%, [0;31mavg loss[0m: 1.3578
+[0;36mtime[0m: 15h 53min  7s 188ms, [0;36mremaining[0m: 22h  6min 51s 404ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 6000/6653, [0;32mpercent complete[0m:  41.80%, [0;31mavg loss[0m: 1.3545
+[0;36mtime[0m: 15h 54min 23s 272ms, [0;36mremaining[0m: 22h  5min 20s 604ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 6200/6653, [0;32mpercent complete[0m:  41.86%, [0;31mavg loss[0m: 1.3698
+[0;36mtime[0m: 15h 55min 39s 456ms, [0;36mremaining[0m: 22h  3min 49s 985ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 6400/6653, [0;32mpercent complete[0m:  41.92%, [0;31mavg loss[0m: 1.3619
+[0;36mtime[0m: 15h 56min 54s 632ms, [0;36mremaining[0m: 22h  2min 18s  13ms, [0;33mepoch[0m: 21/50, [0;33mbatch[0m: 6600/6653, [0;32mpercent complete[0m:  41.98%, [0;31mavg loss[0m: 1.3482
+
+Validating the model at the end of epoch 20 on valid dataset......
+Validate completed, avg loss: 3.4667.
+
+EarlyStopping counter: 20 out of 20.
+
+Early stop.
+
+
+Training is done.
+2022-05-15 05:06:20
+
+Initializing the test environments......
+Environments built successfully.
+
+Size of test dataset: 19121
+
+Start Testing......
+[0;36mtime[0m:  0h  0min  8s 392ms, [0;36mremaining[0m:  0h 41min 39s  15ms, [0;33mbatch[0m:   0/299, [0;32mpercent complete[0m:   0.33%, [0;31mavg s-bleu[0m: 0.4471, [0;31mavg meteor[0m: 0.5520
+[0;36mtime[0m:  0h 22min 33s 439ms, [0;36mremaining[0m:  0h 10min 58s 307ms, [0;33mbatch[0m: 200/299, [0;32mpercent complete[0m:  67.28%, [0;31mavg s-bleu[0m: 0.5199, [0;31mavg meteor[0m: 0.6269
+
+Test completed. s_bleu: 0.4787774708032777. meteor: 0.5753906320961817. rouge: 0.6025951108720508. 
+Testing is done.
+(base) lym@omnisky:~/liangyiming/zhiyuan/github1$ 
